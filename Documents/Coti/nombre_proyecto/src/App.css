@@ -1,0 +1,174 @@
+/* Estilos generales */
+body {
+  /* font-family: Arial, sans-serif; Usar una fuente legible y común */
+  margin: 0; /* Eliminar márgenes predeterminados */
+  padding: 0; /* Eliminar relleno predeterminado */
+}
+
+h2, h3 {
+  font-weight: bold; /* Negrita para destacar */
+  margin-top: 40px !important;
+}
+
+/* Estilos del encabezado */
+.App-header {
+  background-color: #356193; /* Color de fondo oscuro */
+  color: #fff; /* Texto blanco */
+  text-align: center; /* Alinear el texto al centro */
+  padding: 50px; /* Añadir espacio interno */
+}
+
+
+.texto {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* Estilos de la sección principal */
+.section.home {
+  display: flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  text-align: center; /* Alinear el texto al centro */
+  padding: 40px; /* Añadir espacio alrededor de la sección */
+}
+
+.Titulo {
+  font-size: 5vw; /* Tamaño relativo */
+  font-weight: bold; /* Negrita para destacar */
+  margin-right: 50px; /* Separación entre el título y la imagen */
+}
+
+
+
+.conJuan {
+  max-width: 100%;
+  
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  text-align: center; /* Alinear el texto al centro */
+  padding: 20px; /* Añadir espacio alrededor de la sección */
+  border-radius: 15%;
+
+}
+
+.fpg {
+  
+  align-items: center;
+  display: flex;
+
+}
+
+.Coti4{
+ border-radius: 10%;
+ max-width: 100%;
+ margin: 3%;
+
+ 
+}
+
+.libro{
+  
+  width:20%;
+ 
+  display:list-item;
+
+}
+
+
+
+.foto {
+  flex: auto;
+  max-width: 100%;
+  margin: 0 20px; /* Margen a los lados de la imagen */
+  align-items: center;
+  border-radius: 500px; /* Añadir bordes redondeados */
+}
+
+.foto img {
+  max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-radius: 5px; /* Añadir bordes redondeados */
+}
+
+.text-container {
+  flex: 1; /* El contenedor de texto se expande para llenar el espacio disponible */
+  margin: 0 20px; /* Margen a los lados del texto */
+}
+
+
+.Profe {
+  margin: 100px;
+} 
+
+/*Menú*/
+.fixed-top{
+  
+  background-color: #1d186c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-link {
+  color: #716f86; /* Cambia el color del texto de los enlaces */
+  font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
+}
+
+.menu-link:hover {
+  color: #d9c5c5 !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
+  transition: all 1s ease; /* Agrega una transición suave para el cambio */
+  background-color: #1a1757;
+}
+/*Fin Menú*/
+
+
+
+/* Libros.css */
+.libros-container {
+  width: 100%;
+  text-align: center; 
+  
+  
+}
+
+.libro {
+  display: inline-block;  /*Usa flexbox para alinear los libros */
+  margin: 10px; /* Añade margen alrededor de cada libro */
+  border: 5px solid #ccc; /* Añade un borde alrededor de cada libro */
+  border-radius: 5px; /* Añade bordes redondeados */
+ 
+}
+
+
+
+/*FOOTER*/
+.footer {
+  background-color: #1a1757;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.redes-sociales {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.nombre-creador {
+  font-size: 14px;
+  color: #888;
+}
+
+
+#contacto{
+  border:55px;
+  align-items: center;
+}
+
+
+
+
+
