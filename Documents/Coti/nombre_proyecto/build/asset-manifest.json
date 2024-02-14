@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/MatiasVilla91/CSP/static/css/main.2cf207f6.css",
+    "main.js": "/MatiasVilla91/CSP/static/js/main.fde60ac9.js",
+    "static/js/787.97202876.chunk.js": "/MatiasVilla91/CSP/static/js/787.97202876.chunk.js",
+    "static/media/coti5.jpg": "/MatiasVilla91/CSP/static/media/coti5.5988c7408da8931a7f65.jpg",
+    "static/media/libro2.jpg": "/MatiasVilla91/CSP/static/media/libro2.174114a0c5d79d7f1de0.jpg",
+    "static/media/libro1.jpg": "/MatiasVilla91/CSP/static/media/libro1.200a10d6bdf6da624261.jpg",
+    "static/media/libro3.jpg": "/MatiasVilla91/CSP/static/media/libro3.200b68312c9630adbc0c.jpg",
+    "static/media/coti2.jpg": "/MatiasVilla91/CSP/static/media/coti2.7ec2e6a36917d1ec9c20.jpg",
+    "static/media/coti4.jpg": "/MatiasVilla91/CSP/static/media/coti4.ffccc7469d39e2c26e1b.jpg",
+    "index.html": "/MatiasVilla91/CSP/index.html",
+    "main.2cf207f6.css.map": "/MatiasVilla91/CSP/static/css/main.2cf207f6.css.map",
+    "main.fde60ac9.js.map": "/MatiasVilla91/CSP/static/js/main.fde60ac9.js.map",
+    "787.97202876.chunk.js.map": "/MatiasVilla91/CSP/static/js/787.97202876.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cf207f6.css",
+    "static/js/main.fde60ac9.js"
+  ]
+}
