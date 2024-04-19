@@ -11,7 +11,7 @@ a{
 
 /* Estilos del encabezado */
 .App-header {
-  background-color: #356193; /* Color de fondo oscuro */
+  background-color: #5f317c; /* Color de fondo oscuro */
   color: #fff; /* Texto blanco */
   text-align: center; /* Alinear el texto al centro */
     
@@ -25,16 +25,6 @@ a{
   padding: 5vh;
 }
 
-
-
-.Titulo {
-  font-size: 5vw; /* Tamaño relativo */
-  font-weight: bold; /* Negrita para destacar */
-  margin-right: 50px; /* Separación entre el título y la imagen */
-}
-
-
-
 .fpg_logo {
   max-width: 50%;
   
@@ -46,10 +36,8 @@ a{
 }
 
 .fpg {
-  
   align-items: center;
   display:inline-flexbox;
-
 }
 
 .Coti4{
@@ -84,9 +72,6 @@ a{
 }
 
 
-.Profe {
-  margin: 100px;
-} 
 
 /*Menú*/
 .fixed-top{
