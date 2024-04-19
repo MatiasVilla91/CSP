@@ -1,12 +1,9 @@
-//import coti1 from '../src/coti1.jpg';
-
 import './App.css';
 import Home from './componentes/home';
 import Navbar from './componentes/navbar';
 import './componentes/home.js';
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Contacto from './componentes/contacto.js';
 import Libros from './componentes/Libros.js';
 import Profesora from './componentes/profesora.js';
