@@ -5,16 +5,16 @@ h2, h3 {
   margin-top: 40px !important;
 }
 
+a{
+  color:#ffffff
+}
+
 /* Estilos del encabezado */
 .App-header {
   background-color: #356193; /* Color de fondo oscuro */
   color: #fff; /* Texto blanco */
   text-align: center; /* Alinear el texto al centro */
-  
-}
-
-body{
-  font-family: ;
+    
 }
 
 .texto {
@@ -61,11 +61,8 @@ body{
 }
 
 .libro{
-  
   width:20%;
- 
   display:list-item;
-
 }
 
 
@@ -73,9 +70,6 @@ body{
 .foto {
   object-fit: cover;
   max-width: 100%;
-
- 
- 
 }
 
 .foto img {
@@ -85,7 +79,6 @@ body{
 }
 
 .text-container {
-
   flex: 1; /* El contenedor de texto se expande para llenar el espacio disponible */
   margin: 0 20px; /* Margen a los lados del texto */
 }
@@ -99,40 +92,25 @@ body{
 .fixed-top{
   
   background-color: #300646;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(232, 225, 225, 0.1);
 }
 
+
 .menu-link {
-  color: #230442; /* Cambia el color del texto de los enlaces */
+  color: #ffffff; /* Cambia el color del texto de los enlaces */
   font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
 }
+
+
 
 .menu-link:hover {
   color: #ffffff !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
   transition: all 1s ease; /* Agrega una transición suave para el cambio */
-  background-color: #524bc7;
+  background-color: #8b87d1;
   border-radius: 50px;
 }
-/*Fin Menú*/
 
-
-
-/* Libros.css 
-.libros-container {
-  width: 100%;
-  text-align: center; 
-  
-  
-}*/
-/*
-.libro {
-  display: inline-block;  Usa flexbox para alinear los libros 
-  margin: 10px;  Añade margen alrededor de cada libro 
-  border: 5px solid #ccc; /* Añade un borde alrededor de cada libro 
-  border-radius: 5px; /* Añade bordes redondeados }*/
- 
-
-/* Estilos.css */
+/*LIBRO*/
 .libros-container {
   width: 100%;
 }
@@ -158,8 +136,6 @@ body{
   }
 }
 
-
-
 /*FOOTER*/
 .footer {
   background-color: #1a1757;
@@ -168,29 +144,10 @@ body{
   width: 100%;
 }
 
-.redes-sociales {
-  margin-bottom: 10px;
-}
-
-.redes-sociales a {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.nombre-creador {
-  font-size: 14px;
-  color: #888;
-}
-
-
 #contacto{
   border:55px;
   align-items: center;
 }
-
-
-
-
 
 /*TIPOGRAFIA*/
 
