@@ -1,9 +1,4 @@
-/* Estilos generales */
-body {
-  /* font-family: Arial, sans-serif; Usar una fuente legible y común */
-  margin: 0; /* Eliminar márgenes predeterminados */
-  padding: 0; /* Eliminar relleno predeterminado */
-}
+
 
 h2, h3 {
   font-weight: bold; /* Negrita para destacar */
@@ -15,23 +10,17 @@ h2, h3 {
   background-color: #356193; /* Color de fondo oscuro */
   color: #fff; /* Texto blanco */
   text-align: center; /* Alinear el texto al centro */
-  padding: 50px; /* Añadir espacio interno */
+  
 }
 
 
 .texto {
+  text-align: left;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
-/* Estilos de la sección principal */
-.section.home {
-  display: flex;
-  align-items: center; /* Centrar verticalmente los elementos */
-  justify-content: center; /* Centrar horizontalmente los elementos */
-  text-align: center; /* Alinear el texto al centro */
-  padding: 40px; /* Añadir espacio alrededor de la sección */
-}
+
 
 .Titulo {
   font-size: 5vw; /* Tamaño relativo */
@@ -78,11 +67,11 @@ h2, h3 {
 
 
 .foto {
-  flex: auto;
+  object-fit: cover;
   max-width: 100%;
   margin: 0 20px; /* Margen a los lados de la imagen */
   align-items: center;
-  border-radius: 500px; /* Añadir bordes redondeados */
+ 
 }
 
 .foto img {
@@ -122,20 +111,45 @@ h2, h3 {
 
 
 
-/* Libros.css */
+/* Libros.css 
 .libros-container {
   width: 100%;
   text-align: center; 
   
   
+}*/
+/*
+.libro {
+  display: inline-block;  Usa flexbox para alinear los libros 
+  margin: 10px;  Añade margen alrededor de cada libro 
+  border: 5px solid #ccc; /* Añade un borde alrededor de cada libro 
+  border-radius: 5px; /* Añade bordes redondeados }*/
+ 
+
+/* Estilos.css */
+.libros-container {
+  width: 100%;
+}
+
+.libros-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas */
+}
+
+.libro-container {
+  width: calc(33.33% - 20px); /* Ancho de cada contenedor de libro con margen */
+  margin: 10px; /* Espacio entre los contenedores de libro */
 }
 
 .libro {
-  display: inline-block;  /*Usa flexbox para alinear los libros */
-  margin: 10px; /* Añade margen alrededor de cada libro */
-  border: 5px solid #ccc; /* Añade un borde alrededor de cada libro */
-  border-radius: 5px; /* Añade bordes redondeados */
- 
+  width: 100%;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .libro-container {
+    width: 100%; /* Hacer que los libros se vean uno debajo del otro en pantallas pequeñas */
+  }
 }
 
 
