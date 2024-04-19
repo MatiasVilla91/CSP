@@ -13,9 +13,11 @@ h2, h3 {
 
 
 .texto {
+ 
   text-align: left;
   margin-top: 2%;
   margin-bottom: 2%;
+  padding: 5vh;
 }
 
 
@@ -28,21 +30,20 @@ h2, h3 {
 
 
 
-.conJuan {
-  max-width: 100%;
+.fpg_logo {
+  max-width: 50%;
   
   align-items: center; /* Centrar verticalmente los elementos */
   justify-content: center; /* Centrar horizontalmente los elementos */
   text-align: center; /* Alinear el texto al centro */
-  padding: 20px; /* Añadir espacio alrededor de la sección */
-  border-radius: 15%;
+  
 
 }
 
 .fpg {
   
   align-items: center;
-  display: flex;
+  display:inline-flexbox;
 
 }
 
@@ -79,6 +80,7 @@ h2, h3 {
 }
 
 .text-container {
+
   flex: 1; /* El contenedor de texto se expande para llenar el espacio disponible */
   margin: 0 20px; /* Margen a los lados del texto */
 }
