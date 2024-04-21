@@ -13,9 +13,9 @@ h2, h3 {
   
 }
 
-body{
+/* body{
   font-family: ;
-}
+} */
 
 .texto {
  
@@ -103,16 +103,44 @@ body{
 }
 
 .menu-link {
-  color: #230442; /* Cambia el color del texto de los enlaces */
+
   font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
+  color: #fff;
+  
+margin-left: 20px;
+}
+a.menu-link.nav-link {
+  display: inline-flex;
 }
 
+
 .menu-link:hover {
-  color: #ffffff !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
+  color: #fff;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
   transition: all 1s ease; /* Agrega una transición suave para el cambio */
-  background-color: #524bc7;
-  border-radius: 50px;
+  /* background-color: #fff; */
+  /* border-radius: 50px; */
+  font-weight: 600;
+  /* font-size: 18px; */
+  cursor: pointer;
 }
+.menu-link:active {
+  color: #fff;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
+  transition: all 1s ease; /* Agrega una transición suave para el cambio */
+  font-weight: 600;
+}
+a.menu-link, a.nav-link{
+  color: #fff;
+}
+button.navbar-toggler {
+  border-style: none;
+  background-color: #fff;
+  margin: 10px 0px 15px 20px;
+  opacity: 0.78;
+}
+.navbar-nav .nav-link::after{
+  color: #356193
+}
+
 /*Fin Menú*/
 
 
