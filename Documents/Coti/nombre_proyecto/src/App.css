@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Cambia la dirección de los elementos a una columna */
+  }
 
+  .foto {
+    order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
+    margin-bottom: 20px; /* Agrega un margen inferior a la imagen */
+  }
+
+  .text-container {
+    margin: 0; /* Elimina el margen lateral del contenedor de texto */
+  }
+}
 h2, h3 {
   font-weight: bold; /* Negrita para destacar */
   margin-top: 40px !important;
@@ -18,7 +31,7 @@ a{
 }
 
 .texto {
- 
+ flex:1;
   text-align: left;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -40,9 +53,14 @@ a{
   display:inline-flexbox;
 }
 
+.fpg-content {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
 .Coti4{
  border-radius: 10%;
- max-width: 100%;
+ max-width: 50%;
  margin: 3%;
 
  
@@ -58,6 +76,7 @@ a{
 .foto {
   object-fit: cover;
   max-width: 100%;
+  flex:0 0 auto;
 }
 
 .foto img {
@@ -71,6 +90,11 @@ a{
   margin: 0 20px; /* Margen a los lados del texto */
 }
 
+.content {
+  display: flex;
+  flex-direction: row-reverse; /* Cambia el orden de los elementos */
+  align-items: center; /* Centra verticalmente los elementos */
+}
 
 
 /*Menú*/

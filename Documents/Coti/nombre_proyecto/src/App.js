@@ -1,8 +1,11 @@
+
 import './App.css';
+
 import Home from './componentes/home';
 import Navbar from './componentes/navbar';
 import './componentes/home.js';
 import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contacto from './componentes/contacto.js';
 import Libros from './componentes/Libros.js';
@@ -12,7 +15,7 @@ import Footer from './componentes/footer.js';
 
 function App() {
   return (
-   
+    
 
     <div className="App">
       <header className="App-header">
@@ -33,7 +36,9 @@ function App() {
         
        
       </header>
+      
     </div>
+    
     
   );
 }
