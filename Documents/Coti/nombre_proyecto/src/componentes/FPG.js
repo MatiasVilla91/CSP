@@ -5,9 +5,9 @@ function FPG(){
     return(
         <div className="fpg">
             <h3>Frente Patría Grande - Córdoba -</h3>
-            
-            <div className="content">
             <img src={coti3} className="fpg_logo" alt="Coti y Juan" />
+            <div className="content">
+           
                 <div className="texto">
                     <p>
                         Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que
