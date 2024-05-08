@@ -3,6 +3,7 @@ import fpg_logo from './Frente_patria_grande.png';
 
 function FPG(){
     return(
+        <div className="container">
         <div className="fpg">
             <h3>Frente Patría Grande - Córdoba -</h3>
             
@@ -15,7 +16,7 @@ function FPG(){
                     </p>
                 </div>
             </div>
-           
+            </div>
         </div>
     );
 } 
