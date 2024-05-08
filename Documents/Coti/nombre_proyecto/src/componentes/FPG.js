@@ -1,12 +1,13 @@
 import React from "react";
-import coti3 from './fpg.png';
+import fpg_logo from './fpg.png';
 
 function FPG(){
     return(
         <div className="fpg">
             <h3>Frente Patría Grande - Córdoba -</h3>
-            <img src={coti3} className="fpg_logo" alt="Coti y Juan" />
-            <div className="content">
+            
+            <img src={fpg_logo} className="fpg_logo" alt="Logo Frente Patria Grande" />
+            <div className="content">   
            
                 <div className="texto">
                     <p>
@@ -14,6 +15,7 @@ function FPG(){
                     </p>
                 </div>
             </div>
+           
         </div>
     );
 } 

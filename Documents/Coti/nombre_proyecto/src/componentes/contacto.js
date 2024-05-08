@@ -3,23 +3,18 @@ import React from 'react';
 
 function Contacto() {
   return (
-    <div className='section.contacto'>
-      <h2>Contacto</h2>
-    
-      <br />
-      <br />
-      <br />
-     
-    <p className='section.contacto'>ACA VA EL FORMULARIO
-    <p>¡Contáctanos!</p> <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    
-    </p>
 
-      </div>
+    <div className='content'>
+    
+     
+     
+    
+   
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeOQF7pmb8-yZE9V87wk3EeLqjTvkh7Odp_KapFrFpXF3aMbA/viewform?embedded=true" width="100%" height="605" frameBorder="0" marginHeight="0" marginWidth="0">Cargando…</iframe>
+    
+    
+    </div>
+
      
   );
 }

@@ -13,23 +13,21 @@
   }
 
 
-  .foto {
-    order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
-    margin-bottom: 20px; /* Agrega un margen inferior a la imagen */
-  }
-
   .text-container {
     margin: 0; /* Elimina el margen lateral del contenedor de texto */
   }
 }
+
+
+
 h2, h3 {
   font-weight: bold; /* Negrita para destacar */
   margin-top: 60px !important;
   margin-bottom: 60px !important;
 }
 
-a{
-  color:#ffffff
+.Parallax{
+  overflow: hidden;
 }
 
 /* Estilos del encabezado */
@@ -49,8 +47,9 @@ a{
 }
 
 .fpg_logo {
+  object-fit: cover;
   display: flexbox;
-  max-width: 50%;
+  max-width: 100%;
   
   align-items: center; /* Centrar verticalmente los elementos */
   justify-content: center; /* Centrar horizontalmente los elementos */
@@ -70,9 +69,12 @@ a{
 }
 
 .Coti4{
- border-radius: 10%;
- max-width: 50%;
- margin: 3%;
+  display:inline-block;
+  width: 100%;
+  /*height: 100vh;  Esto hace que la imagen ocupe el 100% de la altura de la pantalla */
+  object-fit: cover;
+  border-radius: 100vh;
+  
 
  
 }
@@ -81,6 +83,7 @@ a{
   width:20%;
   display:list-item;
 }
+
 
 
 
@@ -103,10 +106,11 @@ a{
 }
 
 .content {
-  display: flex;
+  align-items: center; /* Centra verticalmente los elementos */
+  display: flexbox;
   flex-wrap: wrap;
   flex-direction: row-reverse; /* Cambia el orden de los elementos */
-  align-items: center; /* Centra verticalmente los elementos */
+  
 }
 
 .content > div {
@@ -117,10 +121,13 @@ a{
 /*Menú*/
 .fixed-top{
   
-  background-color: #300646;
-  box-shadow: 0 2px 4px rgba(232, 225, 225, 0.1);
+  background-color: #2400a6;
+  
 }
 
+a.menu-link.nav-link{
+  color:#fff;
+}
 
 .menu-link {
   color: #ffffff; /* Cambia el color del texto de los enlaces */
@@ -173,6 +180,12 @@ a{
 #contacto{
   border:55px;
   align-items: center;
+}
+
+.x{
+  max-width: 30px;
+  display: inline-flex;
+
 }
 
 /*TIPOGRAFIA*/
