@@ -1,5 +1,5 @@
 import React from "react";
-import CotiFilo from './Coti_San_Pedro_Niunamenos.jpg'
+import CotiFilo from './Coti_San_Pedro_Niunamenos2.jpg'
 
 function Filosofa(){
     return(

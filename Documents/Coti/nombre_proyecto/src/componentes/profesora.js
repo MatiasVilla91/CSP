@@ -4,7 +4,7 @@ import { Parallax } from 'react-scroll-parallax';
 
 function Profesora() {
   return (
-    <div className="Profe">
+    <div className="container">
       <h2>Profesora</h2>
       <Parallax y={[-500, 20]}>
         <div className="foto">

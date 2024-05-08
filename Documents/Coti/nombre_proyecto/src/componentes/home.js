@@ -8,7 +8,7 @@ import coti2 from './coti6.jpg';
 function Home() {
   return (
     <ParallaxBanner y={[-80, 20]}>
-    <div className="section home">
+    <div className="container">
   
    
     
