@@ -71,7 +71,7 @@ h2, h3 {
 .fpg_logo {
   object-fit: cover;
   display: flexbox; 
-  max-width: 80%;
+  max-width: 50%;
   
   align-items: center; /* Centrar verticalmente los elementos */
   justify-content: center; /* Centrar horizontalmente los elementos */

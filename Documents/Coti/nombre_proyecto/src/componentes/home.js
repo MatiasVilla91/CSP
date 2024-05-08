@@ -8,6 +8,7 @@ import coti2 from './coti6.jpg';
 function Home() {
   return (
     <ParallaxBanner y={[-80, 20]}>
+      <img className="foto" src={coti2} alt="Constanza San Pedro sonriendo a la cámara"/>
     <div className="container">
   
    
@@ -15,7 +16,7 @@ function Home() {
     
    
   
-    <img className="foto" src={coti2} alt="Constanza San Pedro sonriendo a la cámara"/>
+    
     <h1>Coti San Pedro</h1>
     <p className='texto'>Hola soy Coti y  aliquip ex ea commodo consequat
        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
