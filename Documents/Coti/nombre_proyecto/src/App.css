@@ -80,8 +80,14 @@ h1, h2, h3 {
 
 .Coti4{
   display:inline-block;
-  width: 40%; 
+  width: 50%; 
+  border-radius: 10%;
  
+
+}
+.Coti5{
+  width:80%;
+
 }
 
 .libro{
@@ -97,6 +103,7 @@ h1, h2, h3 {
   object-fit: cover;
   max-width: 100%;
   flex:0 0 auto;
+  
 }
 
 .foto img {
@@ -150,7 +157,7 @@ a.menu-link.nav-link{
 
 .CSP{
  
-  margin-right: 120vh;
+  margin-right: 100vh;
   height: 80px;
 }
 
