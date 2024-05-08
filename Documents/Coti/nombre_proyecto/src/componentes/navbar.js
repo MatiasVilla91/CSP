@@ -1,11 +1,13 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
+import CSP from './CSP.png'
 
 function NavbarComponent() {
   return (
     <Navbar expand="lg" className="fixed-top">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+      <img src={CSP} alt='logo f' className='CSP'/>
         <Nav className="mr-auto">
           <Nav.Link href="#inicio" className="menu-link">Inicio</Nav.Link>
          

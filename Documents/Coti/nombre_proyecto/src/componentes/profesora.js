@@ -1,12 +1,12 @@
 import React from 'react';
-import coti4 from './OIP.jpeg';
+import coti4 from './Coti-San-Pedro2.jpg';
 import { Parallax } from 'react-scroll-parallax';
 
 function Profesora() {
   return (
     <div className="Profe">
       <h2>Profesora</h2>
-      <Parallax y={[-20, 20]}>
+      <Parallax y={[-500, 20]}>
         <div className="foto">
           <img src={coti4} alt="Coti hablando" className="Coti4" />
         </div>

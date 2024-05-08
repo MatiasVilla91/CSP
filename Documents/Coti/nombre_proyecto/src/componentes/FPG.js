@@ -1,5 +1,5 @@
 import React from "react";
-import fpg_logo from './fpg.png';
+import fpg_logo from './Frente_patria_grande.png';
 
 function FPG(){
     return(
@@ -11,7 +11,7 @@ function FPG(){
            
                 <div className="texto">
                     <p>
-                        Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que Acá va a ir texto que diga muchas cosas como ahora que estas leyendo esto pero no dice nada solo que esta vez si vas a entender que
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </p>
                 </div>
             </div>

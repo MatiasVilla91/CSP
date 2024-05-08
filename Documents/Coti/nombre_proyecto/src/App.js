@@ -12,7 +12,7 @@ import Libros from './componentes/Libros.js';
 import Profesora from './componentes/profesora.js';
 import Fpg from './componentes/FPG.js'
 import Footer from './componentes/footer.js';
-import ParallaxTest from './componentes/parallaxtest.js';
+
 
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
@@ -33,13 +33,13 @@ function App() {
         <div id="Libros"> <Libros/>  </div>
          
             <div id="Profesora"> <Profesora/> </div>
-            <div><ParallaxTest/></div>
+           {/*<div><ParallaxTest/></div>*/}
 
         <div id="FPG"><Fpg/></div>
         
         <div id="Contacto">  <Contacto /> </div>
 
-      
+       
 
         <div> <Footer/> </div>
         

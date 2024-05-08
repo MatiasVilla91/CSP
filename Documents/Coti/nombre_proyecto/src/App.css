@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   .contenedor > div {
     flex: 100%;}
 
@@ -16,11 +16,20 @@
   .text-container {
     margin: 0; /* Elimina el margen lateral del contenedor de texto */
   }
+
+  .CSP{
+   display: none;
+  }
+  
+
+
 }
 
+h1{
+  text-decoration: solid;
+}
 
-
-h2, h3 {
+h1, h2, h3 {
   font-weight: bold; /* Negrita para destacar */
   margin-top: 60px !important;
   margin-bottom: 60px !important;
@@ -32,7 +41,7 @@ h2, h3 {
 
 /* Estilos del encabezado */
 .App-header {
-  background-color: #3581f3; /* Color de fondo oscuro */
+  background-color: #547AB3;/* Color de fondo oscuro */
   color: #fff; /* Texto blanco */
   text-align: center; /* Alinear el texto al centro */
     
@@ -48,12 +57,13 @@ h2, h3 {
 
 .fpg_logo {
   object-fit: cover;
-  display: flexbox;
-  max-width: 100%;
+  display: flexbox; 
+  max-width: 80%;
   
   align-items: center; /* Centrar verticalmente los elementos */
   justify-content: center; /* Centrar horizontalmente los elementos */
   text-align: center; /* Alinear el texto al centro */
+  background-color: #fff;
   
 
 }
@@ -70,12 +80,7 @@ h2, h3 {
 
 .Coti4{
   display:inline-block;
-  width: 100%;
-  /*height: 100vh;  Esto hace que la imagen ocupe el 100% de la altura de la pantalla */
-  object-fit: cover;
-  border-radius: 100vh;
-  
-
+  width: 40%; 
  
 }
 
@@ -121,7 +126,7 @@ h2, h3 {
 /*Menú*/
 .fixed-top{
   
-  background-color: #2400a6;
+  background-color: #405D88;
   
 }
 
@@ -143,9 +148,16 @@ a.menu-link.nav-link{
   border-radius: 50px;
 }
 
+.CSP{
+ 
+  margin-right: 120vh;
+  height: 80px;
+}
+
 /*LIBRO*/
 .libros-container {
-  width: 100%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 .libros-wrapper {
@@ -166,15 +178,45 @@ a.menu-link.nav-link{
 @media (max-width: 768px) {
   .libro-container {
     width: 100%; /* Hacer que los libros se vean uno debajo del otro en pantallas pequeñas */
+    
   }
+  .redes{
+    display:inline-flex; 
+    align-items: center;
+  }
+
+  .x{
+   
+    
+    height: 50%;
+    }
+    
+   .f{
+     
+    
+      height: 10px;
+      
+    }
+  .instagram{
+      margin: 0px;
+      height: 50%;
+    } 
+
+    .CSP{
+      display: none;
+     }
+       
 }
 
 /*FOOTER*/
 .footer {
-  background-color: #1a1757;
-  padding: 20px 0;
+  background-color: #5E5F73;
+  padding: 35px 0;
   text-align: center;
   width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
 }
 
 #contacto{
@@ -182,10 +224,22 @@ a.menu-link.nav-link{
   align-items: center;
 }
 
+.redes{
+  margin-right: 50px;
+}
 .x{
   max-width: 30px;
   display: inline-flex;
+  margin:8px
+}
 
+.f{
+  height: 35px;
+  margin: 8px;
+  
+}
+.instagram{
+  margin: 8px;
 }
 
 /*TIPOGRAFIA*/

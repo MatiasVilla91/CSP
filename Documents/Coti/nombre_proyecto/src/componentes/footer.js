@@ -8,9 +8,9 @@ function Footer() {
      
       <div className="redes">
        
-       <img src={insta} alt='logo instagram' className='instagram'/>
-       <img src={x} alt='logo x' className='x'/>
-       <img src={f} alt='logo f' className='f'/>
+       <a href="https://www.instagram.com/cotisanpedro?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"> <img src={insta} alt='logo instagram' className='instagram' /></a>
+       <a href="https://twitter.com/cotisanpedro" target="_blank"><img src={x} alt='logo x' className='x'/></a>
+       <a href="https://www.facebook.com/cotisanpedro" target="blank"><img src={f} alt='logo f' className='f'/></a>
       </div>
      
     </footer>
