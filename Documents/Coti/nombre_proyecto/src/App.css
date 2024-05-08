@@ -1,88 +1,122 @@
-/* Estilos generales */
-body {
-  /* font-family: Arial, sans-serif; Usar una fuente legible y común */
-  margin: 0; /* Eliminar márgenes predeterminados */
-  padding: 0; /* Eliminar relleno predeterminado */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (max-width: 300px) {
+  .contenedor > div {
+    flex: 100%;}
+
+  .foto {
+    order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
+    margin-bottom: 20px; /* Agrega un margen inferior a la imagen */
+  }
+
+  .texto {
+    margin: 0; /* Elimina el margen lateral del contenedor de texto */
+  }
+
+
+  .text-container {
+    margin: 0; /* Elimina el margen lateral del contenedor de texto */
+  }
+
+  .CSP{
+   display: none;
+  }
+  
+
+
+}
+
+h1{
+  font-size: 10vh !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: solid;
+  
+
 }
 
 h2, h3 {
   font-weight: bold; /* Negrita para destacar */
-  margin-top: 40px !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+.Parallax{
+  overflow: hidden;
 }
 
 /* Estilos del encabezado */
 .App-header {
-  background-color: #356193; /* Color de fondo oscuro */
+  background-color: #547AB3;/* Color de fondo oscuro */
   color: #fff; /* Texto blanco */
   text-align: center; /* Alinear el texto al centro */
-  padding: 50px; /* Añadir espacio interno */
+    
 }
-
 
 .texto {
+  flex:1;
+  text-align: left;
   margin-top: 2%;
   margin-bottom: 2%;
+  padding: 5vh;
 }
 
-/* Estilos de la sección principal */
-.section.home {
-  display: flex;
-  align-items: center; /* Centrar verticalmente los elementos */
-  justify-content: center; /* Centrar horizontalmente los elementos */
-  text-align: center; /* Alinear el texto al centro */
-  padding: 40px; /* Añadir espacio alrededor de la sección */
-}
-
-.Titulo {
-  font-size: 5vw; /* Tamaño relativo */
-  font-weight: bold; /* Negrita para destacar */
-  margin-right: 50px; /* Separación entre el título y la imagen */
-}
-
-
-
-.conJuan {
-  max-width: 100%;
+.fpg_logo {
+  object-fit: cover;
+  display: flexbox; 
+  max-width: 50%;
   
   align-items: center; /* Centrar verticalmente los elementos */
   justify-content: center; /* Centrar horizontalmente los elementos */
   text-align: center; /* Alinear el texto al centro */
-  padding: 20px; /* Añadir espacio alrededor de la sección */
-  border-radius: 15%;
+  background-color: #fff;
+  
 
 }
 
 .fpg {
-  
   align-items: center;
-  display: flex;
+  display:inline-flexbox;
+}
 
+.fpg-content {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos hijos */
 }
 
 .Coti4{
- border-radius: 10%;
- max-width: 100%;
- margin: 3%;
-
+  display:inline-block;
+  width: 50%; 
+  border-radius: 10%;
  
+
+}
+.Coti5{
+  width:50%;
+
 }
 
 .libro{
-  
   width:20%;
- 
   display:list-item;
-
 }
+
 
 
 
 .foto {
-  flex: auto;
+  display: flexbox;
+  object-fit: cover;
   max-width: 100%;
-  margin: 0 20px; /* Margen a los lados de la imagen */
-  align-items: center;
-  border-radius: 500px; /* Añadir bordes redondeados */
+  flex:0 0 auto;
+  
 }
 
 .foto img {
@@ -96,79 +130,208 @@ h2, h3 {
   margin: 0 20px; /* Margen a los lados del texto */
 }
 
+.content {
+  align-items: center; /* Centra verticalmente los elementos */
+  display: flexbox;
+  flex-wrap: wrap;
+  flex-direction: row-reverse; /* Cambia el orden de los elementos */
+  
+}
 
-.Profe {
-  margin: 100px;
-} 
+.content > div {
+  flex:50%
+}
+
 
 /*Menú*/
 .fixed-top{
   
-  background-color: #1d186c;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #405D88;
+  
+}
+
+a.menu-link.nav-link{
+  color:#fff;
 }
 
 .menu-link {
-  color: #716f86; /* Cambia el color del texto de los enlaces */
+  color: #ffffff; /* Cambia el color del texto de los enlaces */
   font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
 }
 
+
+
 .menu-link:hover {
-  color: #d9c5c5 !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
+  color: #ffffff !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
   transition: all 1s ease; /* Agrega una transición suave para el cambio */
-  background-color: #1a1757;
+  background-color: #8b87d1;
+  border-radius: 50px;
 }
-/*Fin Menú*/
 
+.CSP{
+ 
+  margin-right: 100vh;
+  height: 80px;
+}
 
-
-/* Libros.css */
+/*LIBRO*/
 .libros-container {
-  width: 100%;
-  text-align: center; 
-  
-  
+  width: 90%;
+  margin-left: 5%;
+}
+
+.libros-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas */
+}
+
+.libro-container {
+  width: calc(33.33% - 20px); /* Ancho de cada contenedor de libro con margen */
+  margin: 10px; /* Espacio entre los contenedores de libro */
 }
 
 .libro {
-  display: inline-block;  /*Usa flexbox para alinear los libros */
-  margin: 10px; /* Añade margen alrededor de cada libro */
-  border: 5px solid #ccc; /* Añade un borde alrededor de cada libro */
-  border-radius: 5px; /* Añade bordes redondeados */
- 
-}
-
-
-
-/*FOOTER*/
-.footer {
-  background-color: #1a1757;
-  padding: 20px 0;
-  text-align: center;
   width: 100%;
 }
 
-.redes-sociales {
-  margin-bottom: 10px;
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .libro-container {
+    width: 100%; /* Hacer que los libros se vean uno debajo del otro en pantallas pequeñas */
+    
+  }
+  .redes{
+    display:inline-flex; 
+    align-items: center;
+  }
+
+  .x{
+   
+    
+    height: 50%;
+    }
+    
+   .f{
+     
+    
+      height: 10px;
+      
+    }
+  .instagram{
+      margin: 0px;
+      height: 50%;
+    } 
+
+    .CSP{
+      display: none;
+     }
+       
 }
 
-.redes-sociales a {
-  display: inline-block;
-  margin: 0 10px;
+/*FOOTER*/
+.footer {
+  background-color: #5E5F73;
+  padding: 35px 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
 }
-
-.nombre-creador {
-  font-size: 14px;
-  color: #888;
-}
-
 
 #contacto{
   border:55px;
   align-items: center;
 }
 
+.redes{
+  margin-right: 50px;
+}
+.x{
+  max-width: 30px;
+  display: inline-flex;
+  margin:8px
+}
 
+.f{
+  height: 35px;
+  margin: 8px;
+  
+}
+.instagram{
+  margin: 8px;
+}
 
+/*TIPOGRAFIA*/
 
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
