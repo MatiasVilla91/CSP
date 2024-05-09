@@ -6,6 +6,7 @@ import libro3 from './libro3.jpg';
 
 function Libros() {
   return (
+    <div className="container">
     <div className="libros-container">
       <h2>Descarga mis libros</h2>
       <div className="libros-wrapper">
@@ -19,8 +20,9 @@ function Libros() {
         <a href="https://chirimbote.com.ar/wp-content/uploads/2023/10/Filosofar-Derechos.pdf" target='blank'> <img src={libro3} alt='libro portada' className='libro'/></a>
         </div>
       </div>
-    </div>
+    </div></div>
   );
 }
 
 export default Libros;
+  
