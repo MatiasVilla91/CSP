@@ -26,7 +26,7 @@ function App() {
        <div>  <Navbar/>  </div>
 
         <div id="inicio">  <Home/> </div> 
-        
+        <div id="Contacto">  <Contacto /> </div>
        
        
         <div id="Libros"> <Libros/>  </div>
@@ -36,7 +36,7 @@ function App() {
 
         <div id="FPG"><Fpg/></div>
         
-        <div id="Contacto">  <Contacto /> </div>
+       
 
         
 

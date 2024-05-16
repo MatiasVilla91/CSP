@@ -42,24 +42,36 @@
 h1{
   
   font-family: "Barlow Semi Condensed", sans-serif;
-  
-  font-size: 15vh !important;
+  font-size: 14vh !important;
   margin-top: 50px !important;
   margin-bottom: 50px !important;
-    
+  font-weight: bold;
+  
 
 }
 
 h2, h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 10vh !important;
+  font-size: 9vh !important;  
   font-weight: bold; /* Negrita para destacar */
   margin-top: 50px !important;
   margin-bottom: 50px !important;
 }
 
+.texto2{
+  font-family: 'Barlow Semi Condensed',  sans-serif;
+  flex:1;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5vh;
+  font-size: 4vh;
+  font-style: italic;
+  
+}
 
 .texto {
+
   font-family: 'Barlow Semi Condensed',  sans-serif;
   flex:1;
   text-align: left;
@@ -68,6 +80,7 @@ h2, h3 {
   padding: 5vh;
   font-size: 3vh;
   font-style: italic;
+  align-items: center;
   
 }
 
