@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+
+@media (max-width: 300px) {
+  .contenedor > div {
+    flex: 100%;}
+
+  .foto {
+    order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
+    margin-bottom: 20px; /* Agrega un margen inferior a la imagen */
+  }
+
+  .texto {
+    margin: 0; /* Elimina el margen lateral del contenedor de texto */
+  
+  }
+
+
+  .text-container {
+    margin: 0; /* Elimina el margen lateral del contenedor de texto */
+  }
+
+  .CSP{
+   display: none;
+  }
+  
+
+
+}
+
+
+/*TIPOGRAFIA*/
+
+.barlow-semi-condensed-semibold-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/*FIN TIPOGRAFIA*/
+
+
+h1{
+  
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 14vh !important;
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+  font-weight: bold;
+  
+
+}
+
+h2, h3 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 9vh !important;  
+  font-weight: bold; /* Negrita para destacar */
+  margin-top: 50px !important;
+  margin-bottom: 50px !important;
+}
+
+.texto2{
+  font-family: 'Barlow Semi Condensed',  sans-serif;
+  flex:1;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5vh;
+  font-size: 4vh;
+  font-style: italic;
+  
+}
+
+.texto {
+
+  font-family: 'Barlow Semi Condensed',  sans-serif;
+  flex:1;
+  text-align: left;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5vh;
+  font-size: 3vh;
+  font-style: italic;
+  align-items: center;
+  
+}
+
+
+/* Estilos del encabezado */
+.App-header {
+  background-color: #547AB3;/* Color de fondo oscuro */
+  color: #fff; /* Texto blanco */
+  text-align: center; /* Alinear el texto al centro */
+    
+}
+
+
+.fpg_logo {
+  object-fit: cover;
+  display: flexbox; 
+  max-width: 50%;
+  
+  align-items: center; /* Centrar verticalmente los elementos */
+  justify-content: center; /* Centrar horizontalmente los elementos */
+  text-align: center; /* Alinear el texto al centro */
+  background-color: #fff;
+  
+
+}
+
+.fpg {
+  align-items: center;
+  display:inline-flexbox;
+}
+
+.fpg-content {
+  display: flex;
+  align-items: center; /* Centra verticalmente los elementos hijos */
+}
+
+.Coti4{
+  display:inline-block;
+  width: 50%; 
+  border-radius: 10%;
+ 
+
+}
+.Coti5{
+  width:50%;
+
+}
+
+.libro{
+  width:20%;
+  display:list-item;
+}
+
+
+
+
+.foto {
+  display: flexbox;
+  object-fit: cover;
+  max-width: 100%;
+  flex:0 0 auto;
+  
+}
+
+.foto img {
+  max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-radius: 5px; /* Añadir bordes redondeados */
+}
+
+.text-container {
+  flex: 1; /* El contenedor de texto se expande para llenar el espacio disponible */
+  margin: 0 20px; /* Margen a los lados del texto */
+}
+
+.content {
+  align-items: center; /* Centra verticalmente los elementos */
+  display: flexbox;
+  flex-wrap: wrap;
+  flex-direction: row-reverse; /* Cambia el orden de los elementos */
+  
+}
+
+.content > div {
+  flex:50%
+}
+
+
+/*Menú*/
+.fixed-top{
+  
+  background-color: #405D88;
+  
+}
+
+a.menu-link.nav-link{
+  color:#fff;
+}
+
+.menu-link {
+  color: #ffffff; /* Cambia el color del texto de los enlaces */
+  font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
+}
+
+
+
+.menu-link:hover {
+  color: #ffffff !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
+  transition: all 1s ease; /* Agrega una transición suave para el cambio */
+  background-color: #8b87d1;
+  border-radius: 50px;
+}
+
+.CSP{
+ 
+  margin-right: 100vh;
+  height: 80px;
+}
+
+/*LIBRO*/
+.libros-container {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.libros-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas */
+}
+
+.libro-container {
+  width: calc(33.33% - 20px); /* Ancho de cada contenedor de libro con margen */
+  margin: 10px; /* Espacio entre los contenedores de libro */
+}
+
+.libro {
+  width: 100%;
+}
+
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .libro-container {
+    width: 100%; /* Hacer que los libros se vean uno debajo del otro en pantallas pequeñas */
+    
+  }
+  .redes{
+    display:inline-flex; 
+    align-items: center;
+  }
+
+  .x{
+   
+    
+    height: 50%;
+    }
+    
+   .f{
+     
+    
+      height: 10px;
+      
+    }
+  .instagram{
+      margin: 0px;
+      height: 50%;
+    } 
+
+    .CSP{
+      display: none;
+     }
+       
+}
+
+/*FOOTER*/
+.footer {
+  background-color: #5E5F73;
+  padding: 35px 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+#contacto{
+  border:55px;
+  align-items: center;
+}
+
+.redes{
+  margin-right: 50px;
+}
+.x{
+  max-width: 30px;
+  display: inline-flex;
+  margin:8px
+}
+
+.f{
+  height: 35px;
+  margin: 8px;
+  
+}
+.instagram{
+  margin: 8px;
+}
+
+
+/*TIPOGRAFIA*/
+
+.barlow-semi-condensed-thin {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-thin-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-extralight {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-extralight-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-light {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-light-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-regular {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-regular-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-medium-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-semibold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+.barlow-semi-condensed-bold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-bold-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-extrabold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-extrabold-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-semi-condensed-black {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-black-italic {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
