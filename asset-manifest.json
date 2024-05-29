@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CSP/static/css/main.8533021e.css",
-    "main.js": "/CSP/static/js/main.4f8d51ec.js",
+    "main.css": "/CSP/static/css/main.d327bca3.css",
+    "main.js": "/CSP/static/js/main.a479374a.js",
     "static/js/453.eecf4e29.chunk.js": "/CSP/static/js/453.eecf4e29.chunk.js",
     "static/media/Coti_San_Pedro_Niunamenos2.jpg": "/CSP/static/media/Coti_San_Pedro_Niunamenos2.2cf605af86db396701a5.jpg",
     "static/media/coti6.jpg": "/CSP/static/media/coti6.ab61e540aa4363cccef2.jpg",
@@ -12,12 +12,12 @@
     "static/media/Frente_patria_grande.png": "/CSP/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
     "static/media/CSP.png": "/CSP/static/media/CSP.c08a7de795a0040ed339.png",
     "index.html": "/CSP/index.html",
-    "main.8533021e.css.map": "/CSP/static/css/main.8533021e.css.map",
-    "main.4f8d51ec.js.map": "/CSP/static/js/main.4f8d51ec.js.map",
+    "main.d327bca3.css.map": "/CSP/static/css/main.d327bca3.css.map",
+    "main.a479374a.js.map": "/CSP/static/js/main.a479374a.js.map",
     "453.eecf4e29.chunk.js.map": "/CSP/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8533021e.css",
-    "static/js/main.4f8d51ec.js"
+    "static/css/main.d327bca3.css",
+    "static/js/main.a479374a.js"
   ]
 }
