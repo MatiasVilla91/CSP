@@ -15,6 +15,7 @@ import Footer from './componentes/footer.js';
 
 import Filosofa from './componentes/filosofa.js';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import Slider from './componentes/slider.js';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
        <div>  <Navbar/>  </div>
 
         <div id="inicio">  <Home/> </div> 
+        <div> <Slider /> </div>
         <div id="Contacto">  <Contacto /> </div>
        
        
