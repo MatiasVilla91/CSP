@@ -393,3 +393,90 @@ a.menu-link.nav-link{
   font-weight: 900;
   font-style: italic;
 }
+
+
+/*SLIDER*/
+/* Estilos Slider */
+
+
+.carousel {
+  width: 100%;
+  max-width: auto;
+  margin: auto;
+}
+
+.carousel-item img {
+  height: 500px; 
+  object-fit: cover; 
+}
+
+/* Indicadores */
+.carousel-indicators {
+  bottom: 10px !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #fff !important; 
+  border: 1px solid #8c8a8a !important; 
+  width: 15px !important; 
+  height: 15px !important;
+  margin: 0 10px !important; 
+  border-radius: 50% !important;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(66, 66, 68) !important; 
+}
+
+
+/* Flechas de navegación */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 50px !important; 
+  height: 50px !important; 
+  background-color: #8c8a8a !important; 
+  border-radius: 50% !important; 
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  color: #fff !important;
+  margin: 20px !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 20px 20px !important; 
+  background-color: transparent !important; 
+}
+
+
+/* Transición */
+.carousel-inner {
+  transition: transform 1s ease-in-out !important; 
+}
+
+/* Recuadro de texto */
+.carousel-caption {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5); 
+  color: #fff;
+  padding: 20px; 
+  text-align: left; 
+}
+
+.carousel-caption h3,
+.carousel-caption p {
+  width: 100%;
+  margin: 0;
+}

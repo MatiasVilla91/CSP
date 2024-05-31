@@ -12,7 +12,8 @@ import Libros from './componentes/Libros.js';
 import Profesora from './componentes/profesora.js';
 import Fpg from './componentes/FPG.js'
 import Footer from './componentes/footer.js';
-import ArticlesSection from './ArticlesSection.js';
+import ArticlesSection from './componentes/ArticlesSection.js';
+import Slider from './componentes/slider.js'
 
 import Filosofa from './componentes/filosofa.js';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
@@ -27,6 +28,7 @@ function App() {
        <div>  <Navbar/>  </div>
 
         <div id="inicio">  <Home/> </div> 
+        <div> <Slider/> </div>
         <div id="Contacto">  <Contacto /> </div>
        
        
