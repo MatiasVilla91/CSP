@@ -1,23 +1,26 @@
 {
   "files": {
-    "main.css": "/CSP/static/css/main.d327bca3.css",
-    "main.js": "/CSP/static/js/main.45d0101b.js",
+    "main.css": "/CSP/static/css/main.05de3232.css",
+    "main.js": "/CSP/static/js/main.583d6f57.js",
     "static/js/453.eecf4e29.chunk.js": "/CSP/static/js/453.eecf4e29.chunk.js",
+    "static/media/habitat.png": "/CSP/static/media/habitat.f184573d5d2583a5db5e.png",
     "static/media/Coti_San_Pedro_Niunamenos2.jpg": "/CSP/static/media/Coti_San_Pedro_Niunamenos2.2cf605af86db396701a5.jpg",
     "static/media/coti6.jpg": "/CSP/static/media/coti6.ab61e540aa4363cccef2.jpg",
     "static/media/Coti-San-Pedro2.jpg": "/CSP/static/media/Coti-San-Pedro2.1431ca791a2ebe5e8ea3.jpg",
     "static/media/libro2.jpg": "/CSP/static/media/libro2.bc1a26ddcb2fed3a7862.jpg",
     "static/media/libro3.jpg": "/CSP/static/media/libro3.f2c531dbc6065cbbe799.jpg",
     "static/media/libro1.jpg": "/CSP/static/media/libro1.695a3b41a7798bee36e0.jpg",
+    "static/media/juventud.jpg": "/CSP/static/media/juventud.3f17b316f8b02cd8cbb0.jpg",
     "static/media/Frente_patria_grande.png": "/CSP/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
     "static/media/CSP.png": "/CSP/static/media/CSP.c08a7de795a0040ed339.png",
+    "static/media/salud.jpeg": "/CSP/static/media/salud.aee9b5076775a2611162.jpeg",
     "index.html": "/CSP/index.html",
-    "main.d327bca3.css.map": "/CSP/static/css/main.d327bca3.css.map",
-    "main.45d0101b.js.map": "/CSP/static/js/main.45d0101b.js.map",
+    "main.05de3232.css.map": "/CSP/static/css/main.05de3232.css.map",
+    "main.583d6f57.js.map": "/CSP/static/js/main.583d6f57.js.map",
     "453.eecf4e29.chunk.js.map": "/CSP/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d327bca3.css",
-    "static/js/main.45d0101b.js"
+    "static/css/main.05de3232.css",
+    "static/js/main.583d6f57.js"
   ]
 }
