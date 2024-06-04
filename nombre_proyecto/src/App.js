@@ -30,19 +30,11 @@ function App() {
         <div id="inicio">  <Home/> </div> 
         <div> <Slider/> </div>
         <div id="Contacto">  <Contacto /> </div>
-       
-       
+        <div id="Articulos"> <ArticlesSection/> </div>
+        <div id="FPG"><Fpg/></div>
         <div id="Libros"> <Libros/>  </div>
         <div id="Filosofa"> <Filosofa/> </div>
-            <div id="Profesora"> <Profesora/> </div>
-            <div>   <ArticlesSection /></div>
-
-        <div id="FPG"><Fpg/></div>
-        
-       
-
-        
-
+        <div id="Profesora"> <Profesora/> </div>
         <div> <Footer/> </div>
         
        

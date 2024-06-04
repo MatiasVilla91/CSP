@@ -87,8 +87,8 @@ h2, h3 {
 
 /* Estilos del encabezado */
 .App-header {
-  background-color: #547AB3;/* Color de fondo oscuro */
-  color: #fff; /* Texto blanco */
+  background-color: #ffffff;/* Color de fondo oscuro */
+  color: #767676; /* Texto blanco */
   text-align: center; /* Alinear el texto al centro */
     
 }
@@ -172,7 +172,7 @@ h2, h3 {
 /*Menú*/
 .fixed-top{
   
-  background-color: #405D88;
+  background-color: #6f92c7;
   
 }
 
@@ -190,7 +190,7 @@ a.menu-link.nav-link{
 .menu-link:hover {
   color: #ffffff !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
   transition: all 1s ease; /* Agrega una transición suave para el cambio */
-  background-color: #8b87d1;
+  background-color: #3f0562;
   border-radius: 50px;
 }
 
@@ -256,7 +256,7 @@ a.menu-link.nav-link{
 
 /*FOOTER*/
 .footer {
-  background-color: #5E5F73;
+  background-color: #4a0484;
   padding: 35px 0;
   text-align: center;
   width: 100%;

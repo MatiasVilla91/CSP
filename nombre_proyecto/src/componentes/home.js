@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
-import coti2 from './coti6.jpg';
+import coti2 from './Coti_San_Pedro_Niunamenos.jpg';
 
 
 
@@ -8,7 +8,7 @@ import coti2 from './coti6.jpg';
 function Home() {
   return (
     <ParallaxBanner y={[-80, 20]}>
-      <img className="foto" src={coti2} alt="Constanza San Pedro sonriendo a la cámara"/>
+      <img className="foto" src={coti2} alt="Constanza San Pedro sonriendo a la cámara"/> 
     <div className="container">
   
    

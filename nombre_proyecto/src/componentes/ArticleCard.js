@@ -1,13 +1,17 @@
 // src/components/ArticleCard.js
 import React from 'react';
 
-const ArticleCard = ({ image, title, excerpt }) => {
+const ArticleCard = ({ image, title, excerpt, url }) => {
+  const handleClick = () => {
+    window.location.href = url;
+  };
+
   return (
     <div style={styles.card}>
       <img src={image} alt={title} style={styles.image} />
       <h2 style={styles.title}>{title}</h2>
       <p style={styles.excerpt}>{excerpt}</p>
-      <button style={styles.button}>Leer Artículo</button>
+      <button style={styles.button} onClick={handleClick}>Leer Artículo</button>
     </div>
   );
 };
