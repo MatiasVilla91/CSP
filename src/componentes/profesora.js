@@ -1,5 +1,5 @@
 import React from 'react';
-import coti4 from './Coti-San-Pedro2.jpg';
+import coti4 from './Coti-San-Pedro.jpg';
 import { Parallax } from 'react-scroll-parallax';
 
 function Profesora() {

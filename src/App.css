@@ -87,8 +87,9 @@ h2, h3 {
 
 /* Estilos del encabezado */
 .App-header {
-  background-color: #ffffff;/* Color de fondo oscuro */
-  color: #767676; /* Texto blanco */
+  background-image: './textura.jpg';
+  background-color: #ffffff; /*Color de fondo oscuro */
+  color: #767676; /* Texto gris */
   text-align: center; /* Alinear el texto al centro */
     
 }
@@ -140,8 +141,11 @@ h2, h3 {
 .foto {
   display: flexbox;
   object-fit: cover;
+  margin-top: 50px;
   max-width: 100%;
+
   flex:0 0 auto;
+
   
 }
 

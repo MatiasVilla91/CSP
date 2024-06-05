@@ -13,7 +13,10 @@ const articles = [
 
 const ArticlesSection = () => {
   return (
+    
     <div style={styles.container}>
+        
+
       {articles.map(article => (
         <ArticleCard 
           key={article.id}

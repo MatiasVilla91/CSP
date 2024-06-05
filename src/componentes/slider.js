@@ -4,7 +4,7 @@ import { Carousel } from 'react-bootstrap';
 /* Imágenes [No sé porqué no me tomaba las rutas directamente]*/
 import habitat from '../slider-img/habitat.png';
 import juventud from '../slider-img/juventud.jpg';
-import salud from '../slider-img/salud.jpeg';
+import salud from '../slider-img/8061.jpg';
 
 
 function Slider() {

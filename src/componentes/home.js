@@ -1,6 +1,6 @@
 import React from 'react';
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
-import coti2 from './Coti_San_Pedro_Niunamenos.jpg';
+import coti2 from './cotiJuan.jpg';
 
 
 

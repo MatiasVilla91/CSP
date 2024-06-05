@@ -7,6 +7,7 @@ const ArticleCard = ({ image, title, excerpt, url }) => {
   };
 
   return (
+  
     <div style={styles.card}>
       <img src={image} alt={title} style={styles.image} />
       <h2 style={styles.title}>{title}</h2>
