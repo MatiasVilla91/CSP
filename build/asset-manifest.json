@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CSP/static/css/main.c0c2b423.css",
-    "main.js": "/CSP/static/js/main.1fb1437a.js",
-    "static/js/453.eecf4e29.chunk.js": "/CSP/static/js/453.eecf4e29.chunk.js",
+    "main.js": "/CSP/static/js/main.623a50bf.js",
+    "static/js/453.69f3745b.chunk.js": "/CSP/static/js/453.69f3745b.chunk.js",
     "static/media/Coti_San_Pedro_Niunamenos.jpg": "/CSP/static/media/Coti_San_Pedro_Niunamenos.80cc3fbc737ecda5edb4.jpg",
     "static/media/cotiJuan.jpg": "/CSP/static/media/cotiJuan.dd4109788f2e9cd09ce4.jpg",
     "static/media/habitat.png": "/CSP/static/media/habitat.f184573d5d2583a5db5e.png",
@@ -16,11 +16,11 @@
     "static/media/CSP.png": "/CSP/static/media/CSP.c08a7de795a0040ed339.png",
     "index.html": "/CSP/index.html",
     "main.c0c2b423.css.map": "/CSP/static/css/main.c0c2b423.css.map",
-    "main.1fb1437a.js.map": "/CSP/static/js/main.1fb1437a.js.map",
-    "453.eecf4e29.chunk.js.map": "/CSP/static/js/453.eecf4e29.chunk.js.map"
+    "main.623a50bf.js.map": "/CSP/static/js/main.623a50bf.js.map",
+    "453.69f3745b.chunk.js.map": "/CSP/static/js/453.69f3745b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0c2b423.css",
-    "static/js/main.1fb1437a.js"
+    "static/js/main.623a50bf.js"
   ]
 }
