@@ -2,7 +2,7 @@
   "name": "nombre_proyecto",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cotisanpedro.com.ar", /*https://matiasvilla91.github.io/CSP*/
+  "homepage": "*https://matiasvilla91.github.io/CSP",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
