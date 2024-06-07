@@ -3,7 +3,7 @@ import CotiFilo from './Coti_San_Pedro_Niunamenos2.jpg'
 
 function Filosofa(){
     return(
-        <div class="container">
+        <div class="container" id="Filosofa">
             <h2>Filósofa</h2>
              <img src={CotiFilo} alt="Coti hablando" className="Coti5" />
              <div className="texto">

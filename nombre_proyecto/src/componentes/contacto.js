@@ -4,7 +4,7 @@ import React from 'react';
 function Contacto() {
   return (
 
-    <div className='container'>
+    <div className='container' id="Contacto">
     
      
      <h2>Contacto</h2>

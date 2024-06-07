@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "La Belleza del Espacio Natural",
+    "image": "https://images.unsplash.com/photo-1603993097397-89c963e325c7",
+    "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  },
+  {
+    "id": 2,
+    "title": "Descubriendo la Arquitectura Moderna",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+    "excerpt": "Sed ut perspiciatis unde omnis iste natus error sit...",
+    "body": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit."
+  },
+  {
+    "id": 3,
+    "title": "El Arte de la Cocina Italiana",
+    "image": "https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3",
+    "excerpt": "Ut enim ad minima veniam, quis nostrum exercitationem ullam...",
+    "body": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+  },
+  {
+    "id": 4,
+    "title": "Explorando la Selva Amazónica",
+    "image": "https://images.unsplash.com/photo-1570585429632-e8b74372a3ed",
+    "excerpt": "Quis autem vel eum iure reprehenderit qui in ea voluptate...",
+    "body": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? Sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+  },
+  {
+    "id": 5,
+    "title": "Misterios del Universo",
+    "image": "https://images.unsplash.com/photo-1536148935331-408321065b18",
+    "excerpt": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit...",
+    "body": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam."
+  }
+]

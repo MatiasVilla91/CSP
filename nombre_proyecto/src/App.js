@@ -14,36 +14,42 @@ import Fpg from './componentes/FPG.js'
 import Footer from './componentes/footer.js';
 import ArticlesSection from './componentes/ArticlesSection.js';
 import Slider from './componentes/slider.js'
-
+import ArticleBody from './articulos/articulo.js';
 import Filosofa from './componentes/filosofa.js';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-function App() {
-  return (
+    function App() {
+      return (
+        <Router>
+          <ParallaxProvider>
+            <div className="App">
+              <Navbar />
+              <header className="App-header">
+                <Routes> {/* Cambiar 'Switch' por 'Routes' */}
+                  {/* La ruta principal '/' con todos los componentes */}
+                  <Route path="/" element={
+                    <>
+                      <Home/>
+                      <Slider/>
+                      <Contacto/>
+                      <ArticlesSection/>
+                      <Fpg />
+                      <Libros />
+                      <Filosofa />
+                      <Profesora />
+                      <Footer/>
+                    </>
+                  } />
+                  {/* Ruta para ver el artículo individual */}
+                  <Route path="/article/:id" element={<ArticleBody />} /> {/* Cambio de 'component' a 'element' */}
+                </Routes>
+              </header>
+            </div>
+          </ParallaxProvider>
+        </Router>
+      );
+    }
     
-    <ParallaxProvider>
-    <div className="App">
-      <header className="App-header">
-      
-       <div>  <Navbar/>  </div>
-
-        <div id="inicio">  <Home/> </div> 
-        <div> <Slider/> </div>
-        <div id="Contacto">  <Contacto /> </div>
-        <div id="Articulos"> <ArticlesSection/> </div>
-        <div id="FPG"><Fpg/></div>
-        <div id="Libros"> <Libros/>  </div>
-        <div id="Filosofa"> <Filosofa/> </div>
-        <div id="Profesora"> <Profesora/> </div>
-        <div> <Footer/> </div>
-        
-       
-      </header>
-      
-    </div>
-    </ParallaxProvider>
+    export default App;
     
-  );
-}
-
-export default App;

@@ -6,7 +6,7 @@ import libro3 from './libro3.jpg';
 
 function Libros() {
   return (
-    <div className="libros-container">
+    <div className="libros-container" id="Libros">
       <h2>Descarga mis libros</h2>
       <div className="libros-wrapper">
         <div className="libro-container">
