@@ -1,55 +1,53 @@
-
-import './App.css';
-
-import Home from './componentes/home';
-import Navbar from './componentes/navbar';
-import './componentes/home.js';
 import React from 'react';
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
+import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Contacto from './componentes/contacto.js';
-import Libros from './componentes/Libros.js';
-import Profesora from './componentes/profesora.js';
-import Fpg from './componentes/FPG.js'
-import Footer from './componentes/footer.js';
-import ArticlesSection from './componentes/ArticlesSection.js';
-import Slider from './componentes/slider.js'
-import ArticleBody from './articulos/articulo.js';
-import Filosofa from './componentes/filosofa.js';
-import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-    function App() {
-      return (
-        <Router>
-          <ParallaxProvider>
-            <div className="App">
-              <Navbar />
-              <header className="App-header">
-                <Routes> {/* Cambiar 'Switch' por 'Routes' */}
-                  {/* La ruta principal '/' con todos los componentes */}
-                  <Route path="/" element={
-                    <>
-                      <Home/>
-                      <Slider/>
-                      <Contacto/>
-                      <ArticlesSection/>
-                      <Fpg />
-                      <Libros />
-                      <Filosofa />
-                      <Profesora />
-                      <Footer/>
-                    </>
-                  } />
-                  {/* Ruta para ver el artículo individual */}
-                  <Route path="/article/:id" element={<ArticleBody />} /> {/* Cambio de 'component' a 'element' */}
-                </Routes>
-              </header>
-            </div>
-          </ParallaxProvider>
-        </Router>
-      );
-    }
-    
-    export default App;
-    
+// Importaciones de componentes
+// *Nota: Se ha removido la importación duplicada de './componentes/home.js'
+import Navbar from './componentes/navbar';
+import Home from './componentes/home';
+import Contacto from './componentes/contacto';
+import Libros from './componentes/Libros'; // Asegúrate de que el nombre del archivo sea correcto (mayúsculas o minúsculas)
+import Profesora from './componentes/profesora';
+import Fpg from './componentes/FPG'; // Asegúrate de que el nombre del archivo sea correcto (mayúsculas o minúsculas)
+import Footer from './componentes/footer';
+import ArticlesSection from './componentes/ArticlesSection'; // Asegúrate de que el nombre del archivo sea correcto (mayúsculas o minúsculas)
+import Slider from './componentes/slider';
+import ArticleBody from './articulos/articulo'; // Asegúrate de que la ruta al artículo sea correcta
+import Filosofa from './componentes/filosofa';
+
+function App() {
+  return (
+    <Router>
+      <ParallaxProvider>
+        <div className="App">
+          <Navbar /> {/* Asegúrate de que Navbar esté actualizado para usar NavHashLink si es necesario */}
+          <header className="App-header">
+            <Routes>
+              {/* La ruta principal '/' con todos los componentes */}
+              <Route path="/" element={
+                <>
+                  <Home id="inicio" />
+                  <Slider />
+                  <Contacto id="contacto" />
+                  <ArticlesSection id="articulos" />
+                  <Fpg id="fpg" />
+                  <Libros id="libros" />
+                  <Filosofa id="filosofa" />
+                  <Profesora id="profesora" />
+                  <Footer />
+                </>
+              } />
+              {/* Ruta para ver el artículo individual */}
+              <Route path="/article/:id" element={<ArticleBody />} />
+            </Routes>
+          </header>
+        </div>
+      </ParallaxProvider>
+    </Router>
+  );
+}
+
+export default App;

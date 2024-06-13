@@ -1,22 +1,23 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-import CSP from './CSP.png'
+import { NavHashLink as NavLink } from 'react-router-hash-link'; // Importa NavHashLink
+import CSP from './CSP.png'; // Asegúrate de que la ruta a la imagen es correcta
 
 function NavbarComponent() {
   return (
     <Navbar expand="lg" className="fixed-top">
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-      <img src={CSP} alt='logo f' className='CSP'/>
+        <img src={CSP} alt='logo' className='CSP'/>
         <Nav className="mr-auto">
-          <Nav.Link href="/#inicio" className="menu-link">Inicio</Nav.Link>
-          <Nav.Link href="/#Articulos" className="menu-link">Articulos</Nav.Link>
-          <Nav.Link href="/#Contacto" className="menu-link">Contacto</Nav.Link>
-          <Nav.Link href="/#Libros" className="menu-link">Libros</Nav.Link>
-          <Nav.Link href="/#Profesora" className="menu-link">Profesora</Nav.Link>
-          <Nav.Link href="/#Filosofa" className="menu-link">Filósofa</Nav.Link>
-          <Nav.Link href="/#FPG" className="menu-link">Frente Patria Grande</Nav.Link>
-          
+          {/* Usa NavLink de react-router-hash-link con scroll suave */}
+          <NavLink smooth to="/#inicio" className="menu-link nav-link">Inicio</NavLink>
+          <NavLink smooth to="/#Articulos" className="menu-link nav-link">Articulos</NavLink>
+          <NavLink smooth to="/#Contacto" className="menu-link nav-link">Contacto</NavLink>
+          <NavLink smooth to="/#Libros" className="menu-link nav-link">Libros</NavLink>
+          <NavLink smooth to="/#Profesora" className="menu-link nav-link">Profesora</NavLink>
+          <NavLink smooth to="/#Filosofa" className="menu-link nav-link">Filósofa</NavLink>
+          <NavLink smooth to="/#FPG" className="menu-link nav-link">Frente Patria Grande</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
