@@ -12,7 +12,7 @@ import Profesora from './pages/profesora';
 import FPG from './pages/FPG';
 import Footer from './componentes/footer';
 import ArticlesSection from './pages/ArticlesSection';
-import Slider from './pages/slider';
+/*import Slider from './pages/slider';*/
 import ArticleBody from '../src/articulos/articulo';
 import Filosofa from './pages/filosofa';
 
