@@ -1,26 +1,27 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import CSP from './CSP.png'
+import { Nav, Navbar, Container } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
-function NavbarComponent() {
+const NavigationBar = () => {
   return (
-    <Navbar expand="lg" className="fixed-top">
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-      <img src={CSP} alt='logo f' className='CSP'/>
-        <Nav className="mr-auto">
-          <Nav.Link href="#inicio" className="menu-link">Inicio</Nav.Link>
-          <Nav.Link href="#Articulos" className="menu-link">Articulos</Nav.Link>
-          <Nav.Link href="#Contacto" className="menu-link">Contacto</Nav.Link>
-          <Nav.Link href="#Libros" className="menu-link">Libros</Nav.Link>
-          <Nav.Link href="#Profesora" className="menu-link">Profesora</Nav.Link>
-          <Nav.Link href="#Filosofa" className="menu-link">Filósofa</Nav.Link>
-          <Nav.Link href="#FPG" className="menu-link">Frente Patria Grande</Nav.Link>
-          
-        </Nav>
-      </Navbar.Collapse>
+    <Navbar expand="lg" fixed="top" >
+      <Container>
+     
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link as={Link} to="/">Inicio</Nav.Link>
+            <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
+            <Nav.Link as={Link} to="/libros">Libros</Nav.Link>
+            <Nav.Link as={Link} to="/profesora">Profesora</Nav.Link>
+            <Nav.Link as={Link} to="/filosofa">Filosofa</Nav.Link>
+            <Nav.Link as={Link} to="/fpg">FPG</Nav.Link>
+            <Nav.Link as={Link} to="/articulos">Artículos</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
     </Navbar>
   );
-}
+};
 
-export default NavbarComponent;
+export default NavigationBar;
