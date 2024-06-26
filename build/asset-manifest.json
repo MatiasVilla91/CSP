@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.c0c2b423.css",
-    "main.js": "/static/js/main.ef154d38.js",
+    "main.css": "/static/css/main.42c8b131.css",
+    "main.js": "/static/js/main.bdd2b21a.js",
     "static/js/453.eecf4e29.chunk.js": "/static/js/453.eecf4e29.chunk.js",
+    "static/media/Formulario-web-07.png": "/static/media/Formulario-web-07.e49cc16a07f485d5ade0.png",
     "static/media/Coti_San_Pedro_Niunamenos.jpg": "/static/media/Coti_San_Pedro_Niunamenos.80cc3fbc737ecda5edb4.jpg",
-    "static/media/cotiJuan.jpg": "/static/media/cotiJuan.dd4109788f2e9cd09ce4.jpg",
-    "static/media/habitat.png": "/static/media/habitat.f184573d5d2583a5db5e.png",
-    "static/media/8061.jpg": "/static/media/8061.d7be586d20ce14dec413.jpg",
+    "static/media/carrusel-brigadas-01.png": "/static/media/carrusel-brigadas-01.9da1535d4fcfc2b9b45d.png",
+    "static/media/carrusel-brigadas-02.png": "/static/media/carrusel-brigadas-02.df126f974248b9b145ca.png",
+    "static/media/carrusel-brigadas-04.png": "/static/media/carrusel-brigadas-04.b3ee902fea0ee9cc5665.png",
+    "static/media/carrusel-brigadas-05.png": "/static/media/carrusel-brigadas-05.190d855f1c3e16195c2b.png",
+    "static/media/cotiJuan3.jpg": "/static/media/cotiJuan3.b2fe8889ab72dd47e025.jpg",
+    "static/media/carrusel-brigadas-03.png": "/static/media/carrusel-brigadas-03.52448906b7c89672dad4.png",
     "static/media/libro2.jpg": "/static/media/libro2.bc1a26ddcb2fed3a7862.jpg",
     "static/media/libro3.jpg": "/static/media/libro3.f2c531dbc6065cbbe799.jpg",
     "static/media/libro1.jpg": "/static/media/libro1.695a3b41a7798bee36e0.jpg",
     "static/media/Coti-San-Pedro.jpg": "/static/media/Coti-San-Pedro.c006be00fad554042b01.jpg",
-    "static/media/juventud.jpg": "/static/media/juventud.3f17b316f8b02cd8cbb0.jpg",
+    "static/media/Acumin-Pro-Condensed-Black.ttf": "/static/media/Acumin-Pro-Condensed-Black.4b56efe7ddcde27afcfa.ttf",
     "static/media/Frente_patria_grande.png": "/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
-    "static/media/CSP.png": "/static/media/CSP.c08a7de795a0040ed339.png",
     "index.html": "/index.html",
-    "main.c0c2b423.css.map": "/static/css/main.c0c2b423.css.map",
-    "main.ef154d38.js.map": "/static/js/main.ef154d38.js.map",
+    "main.42c8b131.css.map": "/static/css/main.42c8b131.css.map",
+    "main.bdd2b21a.js.map": "/static/js/main.bdd2b21a.js.map",
     "453.eecf4e29.chunk.js.map": "/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0c2b423.css",
-    "static/js/main.ef154d38.js"
+    "static/css/main.42c8b131.css",
+    "static/js/main.bdd2b21a.js"
   ]
 }
