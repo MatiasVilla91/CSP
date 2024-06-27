@@ -15,7 +15,7 @@ Estamos en un contexto social y político muy complejo, que requiere más que nu
 Te cuento lo que venimos haciendo, para que puedas sumarte.
       </p>
 
-      <p>ESTO ES UNA PRUEBA </p>
+     
      
      <Contacto/>
      
