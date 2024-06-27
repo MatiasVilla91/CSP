@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.42c8b131.css",
-    "main.js": "/static/js/main.18dd2743.js",
+    "main.js": "/static/js/main.7053e88f.js",
     "static/js/453.eecf4e29.chunk.js": "/static/js/453.eecf4e29.chunk.js",
     "static/media/Formulario-web-07.png": "/static/media/Formulario-web-07.e49cc16a07f485d5ade0.png",
     "static/media/Coti_San_Pedro_Niunamenos.jpg": "/static/media/Coti_San_Pedro_Niunamenos.80cc3fbc737ecda5edb4.jpg",
@@ -19,11 +19,11 @@
     "static/media/Frente_patria_grande.png": "/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
     "index.html": "/index.html",
     "main.42c8b131.css.map": "/static/css/main.42c8b131.css.map",
-    "main.18dd2743.js.map": "/static/js/main.18dd2743.js.map",
+    "main.7053e88f.js.map": "/static/js/main.7053e88f.js.map",
     "453.eecf4e29.chunk.js.map": "/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42c8b131.css",
-    "static/js/main.18dd2743.js"
+    "static/js/main.7053e88f.js"
   ]
 }
