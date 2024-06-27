@@ -1,5 +1,5 @@
 import React from 'react';
-import coti2 from '../componentes/cotiJuan3.jpg';
+import coti2 from '../componentes/coti2024.jpg';
 import Slider from './slider';
 import Contacto from './contacto';
 
