@@ -15,11 +15,11 @@ Estamos en un contexto social y político muy complejo, que requiere más que nu
 Te cuento lo que venimos haciendo, para que puedas sumarte.
       </p>
 
-     
+      <Slider/>
      
      <Contacto/>
      
-     <Slider/>
+    
     </div>
    
    

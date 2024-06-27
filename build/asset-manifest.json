@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.42c8b131.css",
-    "main.js": "/static/js/main.7053e88f.js",
+    "main.js": "/static/js/main.081029d9.js",
     "static/js/453.eecf4e29.chunk.js": "/static/js/453.eecf4e29.chunk.js",
     "static/media/Formulario-web-07.png": "/static/media/Formulario-web-07.e49cc16a07f485d5ade0.png",
     "static/media/Coti_San_Pedro_Niunamenos.jpg": "/static/media/Coti_San_Pedro_Niunamenos.80cc3fbc737ecda5edb4.jpg",
     "static/media/carrusel-brigadas-01.png": "/static/media/carrusel-brigadas-01.9da1535d4fcfc2b9b45d.png",
     "static/media/carrusel-brigadas-02.png": "/static/media/carrusel-brigadas-02.df126f974248b9b145ca.png",
+    "static/media/coti2024.jpg": "/static/media/coti2024.1b08628d6e3a25499de8.jpg",
     "static/media/carrusel-brigadas-04.png": "/static/media/carrusel-brigadas-04.b3ee902fea0ee9cc5665.png",
     "static/media/carrusel-brigadas-05.png": "/static/media/carrusel-brigadas-05.190d855f1c3e16195c2b.png",
-    "static/media/cotiJuan3.jpg": "/static/media/cotiJuan3.b2fe8889ab72dd47e025.jpg",
     "static/media/carrusel-brigadas-03.png": "/static/media/carrusel-brigadas-03.52448906b7c89672dad4.png",
     "static/media/libro2.jpg": "/static/media/libro2.bc1a26ddcb2fed3a7862.jpg",
     "static/media/libro3.jpg": "/static/media/libro3.f2c531dbc6065cbbe799.jpg",
@@ -19,11 +19,11 @@
     "static/media/Frente_patria_grande.png": "/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
     "index.html": "/index.html",
     "main.42c8b131.css.map": "/static/css/main.42c8b131.css.map",
-    "main.7053e88f.js.map": "/static/js/main.7053e88f.js.map",
+    "main.081029d9.js.map": "/static/js/main.081029d9.js.map",
     "453.eecf4e29.chunk.js.map": "/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.42c8b131.css",
-    "static/js/main.7053e88f.js"
+    "static/js/main.081029d9.js"
   ]
 }
