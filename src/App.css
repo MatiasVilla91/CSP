@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
 
+@font-face {
+  font-family: 'Acumin-Pro-Condensed-Balck';
+  src: url('./assets/Acumin-Pro-Condensed-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Acumin-Pro-Condensed-Balck.ttf', sans-serif;
+}
+
 @media (max-width: 300px) {
   .contenedor > div {
     flex: 100%;}
 
   .foto {
     order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
-    margin-bottom: 20px; /* Agrega un margen inferior a la imagen */
+    margin-bottom: 0px; /* Agrega un margen inferior a la imagen */
   }
 
   .texto {
@@ -22,90 +33,118 @@
   .CSP{
    display: none;
   }
+  .carousel-indicators {
+    bottom: 10px !important;
+  }
   
-
+/* Contacto.css */
+.contact-container {
+  background-image: url('./componentes/Formulario-web-07.png'); /* Ruta a tu imagen */
+  background-size: cover; /* Cubre todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  margin-top: -5vh;
+}
 
 }
 
+/* Archivo: src/App.css */
+@media (max-width: 768px) {
+  .App-header {
+    padding: 10px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-item {
+    margin-bottom: 0px;
+  }
 
-/*TIPOGRAFIA*/
+  .carousel-indicators {
+    bottom: 230px !important;
+  }
 
-.barlow-semi-condensed-semibold-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 600;
-  font-style: italic;
+  .carousel-item img {
+    width: 30%; /* Asegura que las imágenes ocupen el 100% del contenedor */
+    height: 800px; 
+    object-fit: cover; /* Cambia a 'cover' para asegurar que las imágenes cubran el área del carrusel */
+  }
+  
 }
 
-/*FIN TIPOGRAFIA*/
 
-
-h1{
-  
+h1{  
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 14vh !important;
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
+  margin-top: 10vh !important;
+  margin-bottom: 30px !important;
   font-weight: bold;
-  
-
 }
 
 h2, h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-size: 9vh !important;  
   font-weight: bold; /* Negrita para destacar */
-  margin-top: 50px !important;
-  margin-bottom: 50px !important;
+  margin-top: 5vh !important;
+  /*margin-bottom: 30px !important;*/
 }
 
+
 .texto2{
-  font-family: 'Barlow Semi Condensed',  sans-serif;
+  font-family: 'Acumin-Pro-Condensed-Balck',  sans-serif;
   flex:1;
   text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  padding: 5vh;
-  font-size: 4vh;
-  font-style: italic;
-  
+  margin-top: 9vh;
+  margin-bottom: 1%;  
+  font-size: 4vh;  
 }
 
 .texto {
-
-  font-family: 'Barlow Semi Condensed',  sans-serif;
+  font-family: 'Acumin-Pro-Condensed',  sans-serif;
   flex:1;
   text-align: left;
   margin-top: 2%;
   margin-bottom: 2%;
   padding: 5vh;
   font-size: 3vh;
-  font-style: italic;
-  align-items: center;
-  
+  align-items: center; 
 }
 
 
 /* Estilos del encabezado */
 .App-header {
-  background-image: './textura.jpg';
+  background-image: '../src/componentes/textura.jpg';
   background-color: #ffffff; /*Color de fondo oscuro */
   color: #767676; /* Texto gris */
   text-align: center; /* Alinear el texto al centro */
     
 }
 
+.img-container{
+  /*background-image: url('./componentes/Portada-pagina-coti-06.png');  Ruta a tu imagen */
+  background-size: cover; /* Cubre todo el div */
+  background-position: center; /* Centra la imagen en el div */
+}
+
+
+/* Contacto.css */
+.contact-container {
+  background-image: url('./componentes/Formulario-web-07.png'); /* Ruta a tu imagen */
+  background-size: cover; /* Cubre todo el div */
+  background-position: center; /* Centra la imagen en el div */
+  margin-top: -3vh;
+}
+
+
 
 .fpg_logo {
   object-fit: cover;
-  display: flexbox; 
-  max-width: 50%;
-  
+  /*display: flexbox;*/ 
+  max-width: 100%; 
   align-items: center; /* Centrar verticalmente los elementos */
   justify-content: center; /* Centrar horizontalmente los elementos */
   text-align: center; /* Alinear el texto al centro */
   background-color: #fff;
-  
-
+  background-size: cover; /* Cubre todo el div */
 }
 
 .fpg {
@@ -118,16 +157,15 @@ h2, h3 {
   align-items: center; /* Centra verticalmente los elementos hijos */
 }
 
-.Coti4{
-  display:inline-block;
-  width: 50%; 
-  border-radius: 10%;
- 
+.Coti4{ 
+   
+  background-size: cover; /* Cubre todo el div */
+  background-position: center; /* Centra la imagen en el div */
+ }
 
-}
 .Coti5{
-  width:50%;
-
+  width:100%;
+  background-size: cover; /* Cubre todo el div */
 }
 
 .libro{
@@ -135,18 +173,11 @@ h2, h3 {
   display:list-item;
 }
 
-
-
-
 .foto {
   display: flexbox;
-  object-fit: cover;
-  margin-top: 50px;
+  object-fit: cover;  
   max-width: 100%;
-
-  flex:0 0 auto;
-
-  
+  flex:0 0 auto;  
 }
 
 .foto img {
@@ -172,30 +203,34 @@ h2, h3 {
   flex:50%
 }
 
-
-/*Menú*/
-.fixed-top{
-  
-  background-color: #6f92c7;
-  
+.img-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
 
-a.menu-link.nav-link{
-  color:#fff;
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.50); /* Fondo con 32% de opacidad , 0.32*/
+ 
 }
 
-.menu-link {
-  color: #ffffff; /* Cambia el color del texto de los enlaces */
+/* Estilos para los enlaces de la navbar */
+.navbar .nav-link {
+  color: #ffffff; /* Color del texto de los enlaces */
   font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
 }
 
+.navbar .nav-link:hover {
+ /* color: #4899ea !important; /* Cambia el color del texto de los enlaces cuando se pasa el mouse (puedes cambiarlo al color que desees) */
+  background-color: rgba(141, 141, 141, 0.50); /* Fondo del enlace con 32% de opacidad */
+ /* text-decoration: underline; /* Añade subrayado al texto */
+}
 
-
-.menu-link:hover {
-  color: #ffffff !important;  /* Cambia el color del texto de los enlaces cuando se pasa el mouse */
-  transition: all 1s ease; /* Agrega una transición suave para el cambio */
-  background-color: #3f0562;
-  border-radius: 50px;
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffffff !important; /* Asegúrate de que el texto también cambie al pasar el mouse */
 }
 
 .CSP{
@@ -260,7 +295,7 @@ a.menu-link.nav-link{
 
 /*FOOTER*/
 .footer {
-  background-color: #4a0484;
+  background-color: #4494e3;
   padding: 35px 0;
   text-align: center;
   width: 100%;
@@ -269,10 +304,7 @@ a.menu-link.nav-link{
   
 }
 
-#contacto{
-  border:55px;
-  align-items: center;
-}
+
 
 .redes{
   margin-right: 50px;
@@ -293,7 +325,7 @@ a.menu-link.nav-link{
 }
 
 
-/*TIPOGRAFIA*/
+/*TIPOGRAFIA
 
 .barlow-semi-condensed-thin {
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -397,33 +429,31 @@ a.menu-link.nav-link{
   font-weight: 900;
   font-style: italic;
 }
+*/
 
-
-/*SLIDER*/
 /* Estilos Slider */
-
 
 .carousel {
   width: 100%;
-  max-width: auto;
   margin: auto;
 }
 
 .carousel-item img {
-  height: 500px; 
-  object-fit: cover; 
+  width: 100%; /* Asegura que las imágenes ocupen el 100% del contenedor */
+  height: 800px; 
+  object-fit: cover; /* Cambia a 'cover' para asegurar que las imágenes cubran el área del carrusel */
 }
 
 /* Indicadores */
 .carousel-indicators {
-  bottom: 10px !important;
+  bottom: 25px !important;
 }
 
 .carousel-indicators [data-bs-target] {
   background-color: #fff !important; 
   border: 1px solid #8c8a8a !important; 
-  width: 15px !important; 
-  height: 15px !important;
+  width: 10px !important; 
+  height: 10px !important;
   margin: 0 10px !important; 
   border-radius: 50% !important;
 }
@@ -431,7 +461,6 @@ a.menu-link.nav-link{
 .carousel-indicators .active {
   background-color: rgb(66, 66, 68) !important; 
 }
-
 
 /* Flechas de navegación */
 .carousel-control-prev,
@@ -455,7 +484,6 @@ a.menu-link.nav-link{
   background-color: transparent !important; 
 }
 
-
 /* Transición */
 .carousel-inner {
   transition: transform 1s ease-in-out !important; 
@@ -464,23 +492,21 @@ a.menu-link.nav-link{
 /* Recuadro de texto */
 .carousel-caption {
   position: absolute;
-  top: 45px;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.5); 
+ /* background: rgba(0, 0, 0, 0.5); */
   color: #fff;
-  padding: 20px; 
+  padding: 0px; 
   text-align: left; 
 }
 
 .carousel-caption h3,
 .carousel-caption p {
   width: 100%;
-  margin: 0;
 }
