@@ -13,8 +13,9 @@ function Home() {
 Estoy convencida de que la política es una herramienta de transformación social y que es necesario la construcción de una alternativa en la Provincia de Córdoba que garantice una mejor calidad de vida de todxs lxs cordobeses. Necesitamos que las nuevas generaciones podamos asumir el compromiso de cambiar la realidad. 
 Estamos en un contexto social y político muy complejo, que requiere más que nunca del fortalecimiento de los lazos sociales, del encuentro con otrxs. 
 Te cuento lo que venimos haciendo, para que puedas sumarte.
-
       </p>
+
+      <p>ESTO ES UNA PRUEBA </p>
      
      <Contacto/>
      <Slider/>

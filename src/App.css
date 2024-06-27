@@ -18,6 +18,7 @@ body {
   .foto {
     order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
     margin-bottom: 0px; /* Agrega un margen inferior a la imagen */
+    
   }
 
   .texto {
