@@ -18,6 +18,7 @@ Te cuento lo que venimos haciendo, para que puedas sumarte.
       <p>ESTO ES UNA PRUEBA </p>
      
      <Contacto/>
+     
      <Slider/>
     </div>
    
