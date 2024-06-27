@@ -441,7 +441,7 @@ h2, h3 {
 
 .carousel-item img {
   width: 100%; /* Asegura que las imágenes ocupen el 100% del contenedor */
-  height: 800px; 
+  height: 380px; 
   object-fit: cover; /* Cambia a 'cover' para asegurar que las imágenes cubran el área del carrusel */
 }
 
