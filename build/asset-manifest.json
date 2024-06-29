@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fbac9779.css",
-    "main.js": "/static/js/main.74bfab23.js",
+    "main.css": "/static/css/main.47b7ad0c.css",
+    "main.js": "/static/js/main.366c7dba.js",
     "static/js/453.eecf4e29.chunk.js": "/static/js/453.eecf4e29.chunk.js",
     "static/media/Formulario-web-07.png": "/static/media/Formulario-web-07.e49cc16a07f485d5ade0.png",
     "static/media/Coti_San_Pedro_Niunamenos.jpg": "/static/media/Coti_San_Pedro_Niunamenos.80cc3fbc737ecda5edb4.jpg",
@@ -15,15 +15,18 @@
     "static/media/libro3.jpg": "/static/media/libro3.f2c531dbc6065cbbe799.jpg",
     "static/media/libro1.jpg": "/static/media/libro1.695a3b41a7798bee36e0.jpg",
     "static/media/Coti-San-Pedro.jpg": "/static/media/Coti-San-Pedro.c006be00fad554042b01.jpg",
+    "static/media/logo1.jpg": "/static/media/logo1.d20feef9ecb6e06e81b2.jpg",
+    "static/media/logo2.jpg": "/static/media/logo2.744adb2595cb9b7c153e.jpg",
+    "static/media/logo3.jpg": "/static/media/logo3.ada899b6ee5672538e12.jpg",
     "static/media/Acumin-Pro-Condensed-Black.ttf": "/static/media/Acumin-Pro-Condensed-Black.4b56efe7ddcde27afcfa.ttf",
     "static/media/Frente_patria_grande.png": "/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
     "index.html": "/index.html",
-    "main.fbac9779.css.map": "/static/css/main.fbac9779.css.map",
-    "main.74bfab23.js.map": "/static/js/main.74bfab23.js.map",
+    "main.47b7ad0c.css.map": "/static/css/main.47b7ad0c.css.map",
+    "main.366c7dba.js.map": "/static/js/main.366c7dba.js.map",
     "453.eecf4e29.chunk.js.map": "/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbac9779.css",
-    "static/js/main.74bfab23.js"
+    "static/css/main.47b7ad0c.css",
+    "static/js/main.366c7dba.js"
   ]
 }
