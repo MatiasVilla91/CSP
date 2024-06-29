@@ -2,6 +2,8 @@ import React from 'react';
 import coti2 from '../componentes/coti2024.jpg';
 import Slider from './slider';
 import Contacto from './contacto';
+//import Noticias from './noticias';
+import Contactos2 from './contactos2';
 
 function Home() {
   return (
@@ -16,8 +18,8 @@ Te cuento lo que venimos haciendo, para que puedas sumarte.
       </p>
 
       <Slider/>
-     
-     <Contacto/>
+     {/* <Noticias/>  Añade la nueva sección aquí */}
+     <Contactos2/>
      
     
     </div>

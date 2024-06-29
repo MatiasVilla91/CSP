@@ -17,7 +17,11 @@ body {
 
   .foto {
     order: -1; /* Cambia el orden de la imagen para que aparezca antes en la columna */
-    margin-bottom: 0px; /* Agrega un margen inferior a la imagen */
+    display: flexbox;
+    object-fit: cover;  
+    max-width: 80%;
+    flex:0 0 auto;  
+   
     
   }
 
@@ -48,6 +52,41 @@ body {
 
 }
 
+/* Media Query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .libro-container {
+    width: 100%; /* Hacer que los libros se vean uno debajo del otro en pantallas pequeñas */
+    
+  }
+  .redes{
+    display:inline-flex; 
+    align-items: center;
+  }
+
+  .x{
+   
+    
+    height: 50%;
+    }
+    
+   .f{
+     
+    
+      height: 10px;
+      
+    }
+  .instagram{
+      margin: 0px;
+      height: 50%;
+    } 
+
+    .CSP{
+      display: none;
+     }
+       
+}
+
+
 /* Archivo: src/App.css */
 @media (max-width: 768px) {
   .App-header {
@@ -71,7 +110,6 @@ body {
   }
   
 }
-
 
 h1{  
   font-family: "Barlow Semi Condensed", sans-serif;
@@ -108,6 +146,12 @@ h2, h3 {
   padding: 5vh;
   font-size: 3vh;
   align-items: center; 
+}
+
+.texto3{
+  font-family: 'Acumin-Pro-Condensed',  sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
 
 
@@ -181,11 +225,6 @@ h2, h3 {
   flex:0 0 auto;  
 }
 
-.foto img {
-  max-width: 100%; /* Ajustar la imagen al ancho del contenedor */
-  height: auto; /* Mantener la proporción de la imagen */
-  border-radius: 5px; /* Añadir bordes redondeados */
-}
 
 .text-container {
   flex: 1; /* El contenedor de texto se expande para llenar el espacio disponible */
@@ -260,39 +299,6 @@ h2, h3 {
   width: 100%;
 }
 
-/* Media Query para pantallas más pequeñas */
-@media (max-width: 768px) {
-  .libro-container {
-    width: 100%; /* Hacer que los libros se vean uno debajo del otro en pantallas pequeñas */
-    
-  }
-  .redes{
-    display:inline-flex; 
-    align-items: center;
-  }
-
-  .x{
-   
-    
-    height: 50%;
-    }
-    
-   .f{
-     
-    
-      height: 10px;
-      
-    }
-  .instagram{
-      margin: 0px;
-      height: 50%;
-    } 
-
-    .CSP{
-      display: none;
-     }
-       
-}
 
 /*FOOTER*/
 .footer {
@@ -304,8 +310,6 @@ h2, h3 {
   justify-content: flex-end;
   
 }
-
-
 
 .redes{
   margin-right: 50px;
@@ -325,113 +329,6 @@ h2, h3 {
   margin: 8px;
 }
 
-
-/*TIPOGRAFIA
-
-.barlow-semi-condensed-thin {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-thin-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-extralight {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-extralight-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-light {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-light-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-regular {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-regular-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-medium {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-medium-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-semibold {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-
-.barlow-semi-condensed-bold {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-bold-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-extrabold {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-extrabold-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.barlow-semi-condensed-black {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.barlow-semi-condensed-black-italic {
-  font-family: "Barlow Semi Condensed", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-*/
-
 /* Estilos Slider */
 
 .carousel {
@@ -441,13 +338,14 @@ h2, h3 {
 
 .carousel-item img {
   width: 100%; /* Asegura que las imágenes ocupen el 100% del contenedor */
-  height: 380px; 
+  height: 450px; 
   object-fit: cover; /* Cambia a 'cover' para asegurar que las imágenes cubran el área del carrusel */
 }
 
 /* Indicadores */
 .carousel-indicators {
   bottom: 25px !important;
+  
 }
 
 .carousel-indicators [data-bs-target] {

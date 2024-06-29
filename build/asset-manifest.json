@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.42c8b131.css",
+    "main.css": "/static/css/main.fbac9779.css",
     "main.js": "/static/js/main.74bfab23.js",
     "static/js/453.eecf4e29.chunk.js": "/static/js/453.eecf4e29.chunk.js",
     "static/media/Formulario-web-07.png": "/static/media/Formulario-web-07.e49cc16a07f485d5ade0.png",
@@ -18,12 +18,12 @@
     "static/media/Acumin-Pro-Condensed-Black.ttf": "/static/media/Acumin-Pro-Condensed-Black.4b56efe7ddcde27afcfa.ttf",
     "static/media/Frente_patria_grande.png": "/static/media/Frente_patria_grande.21e6df8360dc2d2ab667.png",
     "index.html": "/index.html",
-    "main.42c8b131.css.map": "/static/css/main.42c8b131.css.map",
+    "main.fbac9779.css.map": "/static/css/main.fbac9779.css.map",
     "main.74bfab23.js.map": "/static/js/main.74bfab23.js.map",
     "453.eecf4e29.chunk.js.map": "/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42c8b131.css",
+    "static/css/main.fbac9779.css",
     "static/js/main.74bfab23.js"
   ]
 }
