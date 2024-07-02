@@ -121,7 +121,7 @@ h1{
 
 h2, h3 {
   font-family: "Barlow Semi Condensed", sans-serif;
-  font-size: 9vh !important;  
+  font-size: 10vh !important;  
   font-weight: bold; /* Negrita para destacar */
   margin-top: 5vh !important;
   /*margin-bottom: 30px !important;*/
@@ -132,7 +132,7 @@ h2, h3 {
   font-family: 'Acumin-Pro-Condensed-Balck',  sans-serif;
   flex:1;
   text-align: center;
-  margin-top: 9vh;
+  margin-top: 10vh;
   margin-bottom: 1%;  
   font-size: 4vh;  
 }
