@@ -10,19 +10,18 @@ const Contactos2 = () => {
       <div className="row align-items-start">
         <div className="col-md">
           <img src={logo1} alt="Imagen 1" className="img-fluid" /><br/>
-          <b class="texto3">Sumate a Militar!💪 </b>
-          <p class="texto3">¿Querés fortalecer a la construcción del Frente Patria Grande? En tiempos donde prima el individualismo, te invitamos a fortalecer la organización. Seguimos para saber qué hacemos asi te podes sumar a las brigadas, actividades y las jornadas solidarias.
-          </p>
+          <b class="texto3">Sumate a Militar💪 </b>
+          <p class="texto3">Podes participar de las brigadas sociocomunitarias y de diferentes jornadas solidarias</p>
         </div>
         <div className="col-md">
           <img src={logo2} alt="Imagen 2" className="img-fluid" /><br/>
-          <b class="texto3">¿Venis pensando en alguna idea o proyecto colectivo? 💡</b>
-          <p class="texto3">Escribinos para que lo pensemos juntxs. </p>
+          <b class="texto3">Contame tu Propuesta 💡</b>
+          <p class="texto3">Escribime para que lo pensemos juntxs </p>
         </div>
         <div className="col-md">
           <img src={logo3} alt="Imagen 3" className="img-fluid" /><br/>
-          <b class="texto3">¿Te interesa hacer un aporte económico? ✅</b>
-          <p class="texto3">Para colaborar con el trabajo que hacemos podes sumarte como suscriptor mensual o como aportante único. Te vamos mandando nuestras novedades y acciones en nuestro resumen mensual.</p>
+          <b class="texto3">Aporte económico ✅</b>
+          <p class="texto3">Podes ser suscriptor mensual o aportante único; si te interesa contribuir <a href='#'>hace click acá!</a></p>
         </div>
       </div>
     </div>
