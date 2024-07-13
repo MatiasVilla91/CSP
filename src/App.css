@@ -7,6 +7,8 @@
   font-style: normal;
 }
 
+
+
 body {
   font-family: 'Acumin-Pro-Condensed-Balck.ttf', sans-serif;
 }
@@ -23,6 +25,10 @@ body {
     flex:0 0 auto;  
    
     
+  }
+
+  h1{
+    text-align: left; /* Centra el texto a la derecha */
   }
 
   .texto {
@@ -117,6 +123,8 @@ h1{
   margin-top: 10vh !important;
   margin-bottom: 30px !important;
   font-weight: bold;
+
+
 }
 
 h2, h3 {
@@ -164,11 +172,6 @@ h2, h3 {
     
 }
 
-.img-container{
-  /*background-image: url('./componentes/Portada-pagina-coti-06.png');  Ruta a tu imagen */
-  background-size: cover; /* Cubre todo el div */
-  background-position: center; /* Centra la imagen en el div */
-}
 
 
 /* Contacto.css */
@@ -219,10 +222,15 @@ h2, h3 {
 }
 
 .foto {
-  display: flexbox;
+  display: block;
   object-fit: cover;  
   max-width: 100%;
-  flex:0 0 auto;  
+  flex: 0 0 auto;
+  width:  100%; /* Aumenta el ancho para hacer zoom */
+  height: 800px; /* Define una altura específica para mostrar solo una parte de la imagen */
+  overflow: hidden; /* Oculta las partes de la imagen que exceden el contenedor */
+  position: relative; /* Necesario para usar object-position */
+  object-position: right; /* Ajusta la posición de la imagen dentro del contenedor */
 }
 
 
@@ -251,28 +259,64 @@ h2, h3 {
   margin: 0;
 }
 
+/*NAV BAR*/
 /* Estilos para la barra de navegación */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.50); /* Fondo con 32% de opacidad , 0.32*/
- 
+  background-color: rgba(0, 0, 0, 0.50); /* Fondo con 50% de opacidad */
 }
 
 /* Estilos para los enlaces de la navbar */
 .navbar .nav-link {
-  color: #ffffff; /* Color del texto de los enlaces */
+  
+  color: rgb(213, 213, 213); /* Color del texto de los enlaces */
   font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
 }
 
-.navbar .nav-link:hover {
- /* color: #4899ea !important; /* Cambia el color del texto de los enlaces cuando se pasa el mouse (puedes cambiarlo al color que desees) */
-  background-color: rgba(141, 141, 141, 0.50); /* Fondo del enlace con 32% de opacidad */
- /* text-decoration: underline; /* Añade subrayado al texto */
+/* Estilo para el dropdown */
+.dropdown-item, .dropdown-menu.show {
+  
+  background-color: rgba(77, 77, 77, 0.50); /* Fondo del dropdown con opacidad */
 }
 
-.navbar-brand:hover, .navbar-nav .nav-link:hover {
-  color: #ffffff !important; /* Asegúrate de que el texto también cambie al pasar el mouse */
+.navbar-nav .nav-item .dropdown-menu .dropdown-item, .publicaciones-dropdown
+.navbar-nav .nav-item .dropdown-menu .dropdown-item{
+  
+  font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
+  color: rgb(213, 213, 213);
 }
 
+/* Cambios de estilo al pasar el mouse sobre los enlaces y elementos del dropdown */
+.navbar .nav-link:hover, .dropdown-item:hover, .navbar-brand:hover {
+  
+  background-color: rgba(141, 141, 141, 0.50);/* Cambia el color del texto al pasar el mouse */
+  color: rgb(213, 213, 213);
+}
+
+/* Asegúrate de que los submenús también se vean bien al pasar el mouse */
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover,
+.navbar-nav .nav-item .dropdown-menu .dropdown-item a:hover {
+  background-color: rgb(255, 255, 255);
+ /* background-color: rgba(141, 141, 141, 0.50); /* Fondo del dropdown-item al pasar el mouse */
+  color: rgb(63, 63, 63) !important; /* Cambia el color del texto del dropdown-item al pasar el mouse */
+  font-weight: bold; /* Hace que el texto de los enlaces sea negrita */
+}
+
+.nav-dropdown-custom.nav-item.dropend:hover{
+  background-color: #fff;
+  color: rgb(63, 63, 63);
+}
+
+
+/* Asegúrate de que los enlaces dentro de los dropdown también se vean bien */
+.navbar-nav .nav-item .dropdown-menu a:hover {
+  color: rgb(63, 63, 63);
+  background-color: rgb(255, 255, 255);
+  /*color:  rgba(77, 77, 77) !important;  Cambia el color del texto del enlace del dropdown-item al pasar el mouse */
+}
+
+
+
+/*FIN NAVBAR*/
 .CSP{
  
   margin-right: 100vh;
@@ -330,6 +374,17 @@ h2, h3 {
 }
 
 /* Estilos Slider */
+
+.slider2-container {
+  width: 100%; /* Ancho específico para el contenedor del slider */
+  margin: 0 auto;  /*Centrar el contenedor en la página */
+  height: 100%;
+}
+
+.slider2-image {
+  width: 100%; /* Hacer que la imagen ocupe todo el ancho del contenedor */
+  height: 30%; /* Mantener la relación de aspecto */
+}
 
 .carousel {
   width: 100%;

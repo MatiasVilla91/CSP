@@ -2,7 +2,6 @@ import React from 'react';
 import coti2 from '../componentes/coti2024b.jpg';
 import Slider from './slider';
 import Contacto from './contacto';
-//import Noticias from './noticias';
 import Contactos2 from './contactos2';
 
 function Home() {

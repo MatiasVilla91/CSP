@@ -9,11 +9,12 @@ import Home from './pages/home';
 import Contacto from './pages/contacto';
 import Libros from './pages/Libros';
 import Profesora from './pages/profesora';
-import FPG from './pages/FPG';
+import FPG from './pages/cotisanpedro';
 import Footer from './componentes/footer';
 import ArticlesSection from './pages/ArticlesSection';
 import ArticleBody from '../src/articulos/articulo';
 import Filosofa from './pages/filosofa';
+
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <Route path="/fpg" element={<FPG />} />
               <Route path="/articulos" element={<ArticlesSection />} />
               <Route path="/article/:id" element={<ArticleBody />} />
+              <Route path="/cotisanpedro" element={<FPG/>} />
             </Routes>
           </header>
           <Footer />
