@@ -262,6 +262,7 @@ h2, h3 {
 /*NAV BAR*/
 /* Estilos para la barra de navegación */
 .navbar {
+  
   background-color: rgba(0, 0, 0, 0.50); /* Fondo con 50% de opacidad */
 }
 
@@ -314,8 +315,6 @@ h2, h3 {
   /*color:  rgba(77, 77, 77) !important;  Cambia el color del texto del enlace del dropdown-item al pasar el mouse */
 }
 
-
-
 /*FIN NAVBAR*/
 .CSP{
  
@@ -324,25 +323,35 @@ h2, h3 {
 }
 
 /*LIBRO*/
+
+.libro.img-fluid{
+  width: 300px;
+}
 .libros-container {
-  width: 90%;
-  margin-left: 5%;
+  padding: 20px;
 }
 
 .libros-wrapper {
-  display: flex;
-  flex-wrap: wrap; /* Permitir que los elementos se envuelvan en filas */
+  margin-bottom: 20px;
 }
 
 .libro-container {
-  width: calc(33.33% - 20px); /* Ancho de cada contenedor de libro con margen */
-  margin: 10px; /* Espacio entre los contenedores de libro */
+  display: flex;
+  align-items: center;
 }
 
 .libro {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
+.libro-text {
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
 
 /*FOOTER*/
 .footer {

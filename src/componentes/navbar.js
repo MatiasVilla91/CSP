@@ -13,8 +13,8 @@ const NavigationBar = () => {
             <NavDropdown title="¿Quién es Coti?" id="basic-nav-dropdown" className="nav-dropdown-custom">
               <NavDropdown.Item as={Link} to="/cotisanpedro">Coti San Pedro</NavDropdown.Item>
               <NavDropdown drop="end" title="Publicaciones" id="publicaciones-dropdown" className="nav-dropdown-custom">
-                <NavDropdown.Item as={Link} to="/publicaciones/libros">Libros</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/publicaciones/articulos">Artículos</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/Libros">Libros</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/articulos">Artículos</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/publicaciones/notas">Notas</NavDropdown.Item>
               </NavDropdown>
             </NavDropdown>

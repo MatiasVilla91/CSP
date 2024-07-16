@@ -3,7 +3,6 @@ import React from 'react';
 import ArticleCard from './ArticleCard';
 import articlesData from '../articulos/articulos.json';
 
-
 const ArticlesSection = () => {
   const [articles, setArticles] = React.useState([]);
 
@@ -19,7 +18,7 @@ const ArticlesSection = () => {
           image={article.image}
           title={article.title}
           excerpt={article.excerpt}
-          id={article.id}
+          url={article.url}  // Añade la propiedad url aquí
         />
       ))}
     </div>
@@ -32,8 +31,6 @@ const styles = {
     flexWrap: 'wrap',
     justifyContent: 'center',
     padding: '16px',
-   
-    
   }
 };
 

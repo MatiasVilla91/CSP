@@ -1,24 +1,21 @@
 // src/components/ArticleCard.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 
-const ArticleCard = ({ image, title, excerpt,id}) => {
- 
-
+const ArticleCard = ({ image, title, excerpt, url }) => {
   return (
     <div style={styles.card}>
       <img src={image} alt={title} style={styles.image} />
       <h4 style={styles.title}>{title}</h4>
       <p style={styles.excerpt}>{excerpt}</p>
-      <Link to={`/article/${id}`} style={styles.button} target="_blank">Leer Artículo</Link>
+      <a href={url} style={styles.button} target="_blank" rel="noopener noreferrer">Leer Artículo</a>
     </div>
   );
 };
 
 const styles = {
   card: {
-    border: '1px solid #ccc',
-    borderRadius: '8px',  
+    border: '5px solid #ccc',
+    borderRadius: '8px',
     padding: '16px',
     width: '300px',
     margin: '16px',
@@ -32,7 +29,6 @@ const styles = {
   title: {
     fontSize: '1.5em',
     margin: '16px 0',
-    
   },
   excerpt: {
     fontSize: '1em',
@@ -47,7 +43,10 @@ const styles = {
     border: 'none',
     borderRadius: '4px',
     cursor: 'pointer',
+    textDecoration: 'none',
+    display: 'inline-block',
   }
 };
 
 export default ArticleCard;
+
