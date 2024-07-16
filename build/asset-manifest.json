@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.332523d8.css",
-    "main.js": "/static/js/main.c9198004.js",
+    "main.js": "/static/js/main.567db069.js",
     "static/js/453.eecf4e29.chunk.js": "/static/js/453.eecf4e29.chunk.js",
     "static/media/Formulario-web-07.png": "/static/media/Formulario-web-07.e49cc16a07f485d5ade0.png",
     "static/media/Coti_San_Pedro_Niunamenos.jpg": "/static/media/Coti_San_Pedro_Niunamenos.80cc3fbc737ecda5edb4.jpg",
@@ -25,11 +25,11 @@
     "static/media/Acumin-Pro-Condensed-Black.ttf": "/static/media/Acumin-Pro-Condensed-Black.4b56efe7ddcde27afcfa.ttf",
     "index.html": "/index.html",
     "main.332523d8.css.map": "/static/css/main.332523d8.css.map",
-    "main.c9198004.js.map": "/static/js/main.c9198004.js.map",
+    "main.567db069.js.map": "/static/js/main.567db069.js.map",
     "453.eecf4e29.chunk.js.map": "/static/js/453.eecf4e29.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.332523d8.css",
-    "static/js/main.c9198004.js"
+    "static/js/main.567db069.js"
   ]
 }
